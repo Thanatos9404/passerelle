@@ -5,7 +5,7 @@ Fact-locked, verified explanations of Swiss official letters in the client's lan
 - **Track:** `Track 2B — Passerelle`
 - **Event:** Online
 - **Team:** Stack Underflow — Yashvardhan Thanvi (BIT Mesra, Off Campus Jaipur, India)
-- **Demo:** VIDEO_URL *(placeholder — demo video link to be added)*
+- **Demo:** [https://youtu.be/bjc88UYdgfE](https://youtu.be/bjc88UYdgfE)
 
 ## 1. Summary
 

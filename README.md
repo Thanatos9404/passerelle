@@ -132,4 +132,4 @@ This repository follows the Hack Apertus project template; the competition direc
 
 **Stack Underflow** — Yashvardhan Thanvi (BIT Mesra, Off Campus Jaipur, India).
 
-Demo video: VIDEO_URL *(placeholder — link to be added)*
+Demo video: https://youtu.be/bjc88UYdgfE
