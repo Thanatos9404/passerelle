@@ -1,0 +1,230 @@
+{
+ "id": "school_enrolment_de_0",
+ "letter_type": "school_enrolment",
+ "lang": "de",
+ "instance": 0,
+ "title": "Anmeldung Kindergarten — Schule Rüttiwil",
+ "authority": "Schule Rüttiwil",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 23",
+   "normalized": "Schulhausstrasse 23",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     32,
+     51
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "5339 Rüttiwil",
+   "normalized": "5339 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     52,
+     65
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "052/325 29 80",
+   "normalized": "+41523252980",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     71,
+     84
+    ],
+    [
+     945,
+     958
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@ruettiwil.ch",
+   "normalized": "info@ruettiwil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     85,
+     102
+    ],
+    [
+     964,
+     981
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Dorfplatz 19",
+   "normalized": "Dorfplatz 19",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     128,
+     140
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "5558 Rüttiwil",
+   "normalized": "5558 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     141,
+     154
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "5. Oktober 2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     166,
+     181
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SCH-2026-3573",
+   "normalized": "SCH-2026-3573",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     193,
+     206
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "11.12.2022",
+   "normalized": "2022-12-11",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     313,
+     323
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.8.2027",
+   "normalized": "2027-08-16",
+   "role": "effective",
+   "critical": true,
+   "slot": "school_start",
+   "spans": [
+    [
+     396,
+     405
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "5. November 2026",
+   "normalized": "2026-11-05",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     438,
+     454
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "Dienstag, 27. Oktober 2026",
+   "normalized": "2026-10-27",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_date",
+   "spans": [
+    [
+     709,
+     735
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "19:00 Uhr",
+   "normalized": "19:00",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_time",
+   "spans": [
+    [
+     739,
+     748
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-11-05",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-10-27",
+   "time": "19:00"
+  },
+  "amounts": [],
+  "references": [
+   "SCH-2026-3573"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41523252980",
+  "email": "info@ruettiwil.ch"
+ },
+ "action_required": "Kind für den Kindergarten anmelden",
+ "consequence": "Kindergartenbesuch ist obligatorisch",
+ "documents": [
+  "Familienbüchlein oder Geburtsurkunde",
+  "Impfausweis",
+  "Aufenthaltsbewilligung des Kindes"
+ ],
+ "recipient": "Abdirahman Warsame",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

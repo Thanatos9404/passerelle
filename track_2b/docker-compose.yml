@@ -1,0 +1,73 @@
+# Passerelle — `make run` == `docker compose up --build`
+#
+# Default (judges / hosted endpoint): only `app` runs and talks to the OpenAI-compatible endpoint
+# given by LLM_BASE_URL / LLM_NAME / LLM_API_KEY (shell env or .env file).
+#
+# Air-gapped (target architecture b):  docker compose --profile local-llm up --build
+#   `llm` = official llama.cpp server with the Apertus GGUF from ./models (make model), attached ONLY to
+#   the internal network `airgap` (no route to the outside). `app` reaches it at http://llm:8080/v1 and
+#   its egress guard refuses every other destination. For NVIDIA GPUs use the `local-llm-gpu` profile.
+name: passerelle
+
+services:
+  app:
+    build: .
+    image: passerelle:latest
+    ports:
+      - "${PASSERELLE_PORT:-8080}:8080"
+    environment:
+      LLM_NAME: ${LLM_NAME:-apertus-8b}
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://llm:8080/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-none}
+      PASSERELLE_TIMEOUT: ${PASSERELLE_TIMEOUT:-300}
+      PASSERELLE_JSON_MODE: ${PASSERELLE_JSON_MODE:-auto}
+      PASSERELLE_EGRESS_ALLOW: ${PASSERELLE_EGRESS_ALLOW:-}
+    volumes:
+      - passerelle-data:/var/lib/passerelle
+    networks: [default, airgap]
+    depends_on:
+      llm:
+        condition: service_started
+        required: false
+      llm-gpu:
+        condition: service_started
+        required: false
+    restart: unless-stopped
+
+  llm:
+    profiles: ["local-llm"]
+    image: ghcr.io/ggml-org/llama.cpp:server
+    command: ["-m", "/models/${LLM_GGUF:-apertus-v1.5-8b-text-q4_k_m.gguf}", "--alias", "apertus-8b",
+              "--host", "0.0.0.0", "--port", "8080", "-c", "8192", "--jinja", "-t", "${LLM_THREADS:-8}"]
+    volumes:
+      - ./models:/models:ro
+    networks: [airgap]
+    restart: unless-stopped
+
+  llm-gpu:
+    profiles: ["local-llm-gpu"]
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda
+    hostname: llm
+    command: ["-m", "/models/${LLM_GGUF:-apertus-v1.5-8b-text-q4_k_m.gguf}", "--alias", "apertus-8b",
+              "--host", "0.0.0.0", "--port", "8080", "-c", "8192", "--jinja", "-ngl", "99", "-fa", "on",
+              "--cache-type-k", "q8_0", "--cache-type-v", "q8_0"]
+    volumes:
+      - ./models:/models:ro
+    networks:
+      airgap:
+        aliases: [llm]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+
+networks:
+  airgap:
+    internal: true   # no external connectivity for anything attached only here
+
+volumes:
+  passerelle-data:

@@ -1,0 +1,212 @@
+{
+ "id": "asylum_interview_it_0",
+ "letter_type": "asylum_interview",
+ "lang": "it",
+ "instance": 0,
+ "title": "Convocazione audizione motivi d'asilo — Centro federale d'asilo Sud",
+ "authority": "Centro federale d'asilo Sud",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via Cantonale 16",
+   "normalized": "Via Cantonale 16",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     46,
+     62
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6819 Riva Serena",
+   "normalized": "6819 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     63,
+     79
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091 901 85 98",
+   "normalized": "+41919018598",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     89,
+     102
+    ],
+    [
+     928,
+     941
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@rivaserena.ch",
+   "normalized": "info@rivaserena.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     103,
+     121
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via dei Mulini 24",
+   "normalized": "Via dei Mulini 24",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     149,
+     166
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6999 Riva Serena",
+   "normalized": "6999 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     167,
+     183
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "15 ottobre 2026",
+   "normalized": "2026-10-15",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     198,
+     213
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "N 378 270",
+   "normalized": "N 378 270",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     227,
+     236
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13.11.2026",
+   "normalized": "2026-11-13",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_date",
+   "spans": [
+    [
+     378,
+     388
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "09:00",
+   "normalized": "09:00",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_time",
+   "spans": [
+    [
+     394,
+     399
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via San Rocco 14",
+   "normalized": "Via San Rocco 14",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_street",
+   "spans": [
+    [
+     436,
+     452
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6761 Riva Serena",
+   "normalized": "6761 Riva Serena",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_postal",
+   "spans": [
+    [
+     454,
+     470
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-15",
+  "deadline": null,
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-13",
+   "time": "09:00"
+  },
+  "amounts": [],
+  "references": [
+   "N 378 270"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41919018598",
+  "email": "info@rivaserena.ch"
+ },
+ "action_required": "Presentarsi all'audizione con i documenti",
+ "consequence": "La domanda d'asilo può essere stralciata",
+ "documents": [
+  "documenti d'identità",
+  "mezzi di prova",
+  "convocazione"
+ ],
+ "recipient": "Selam Gebremedhin",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

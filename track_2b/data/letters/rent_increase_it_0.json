@@ -1,0 +1,277 @@
+{
+ "id": "rent_increase_it_0",
+ "letter_type": "rent_increase",
+ "lang": "it",
+ "instance": 0,
+ "title": "Aumento della pigione — Amministrazione stabili Ceresio SA",
+ "authority": "Amministrazione stabili Ceresio SA",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Piazza Grande 39",
+   "normalized": "Piazza Grande 39",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     52,
+     68
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6973 Riva Serena",
+   "normalized": "6973 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     69,
+     85
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 694 63 68",
+   "normalized": "+41916946368",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     91,
+     107
+    ],
+    [
+     983,
+     999
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@rivaserena.ch",
+   "normalized": "info@rivaserena.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     108,
+     126
+    ],
+    [
+     1001,
+     1019
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 4",
+   "normalized": "Via Cantonale 4",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     153,
+     168
+    ],
+    [
+     251,
+     266
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6888 Riva Serena",
+   "normalized": "6888 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     169,
+     185
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "7 ottobre 2026",
+   "normalized": "2026-10-07",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     200,
+     214
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "4778.75.555",
+   "normalized": "4778.75.555",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     230,
+     241
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.4.2027",
+   "normalized": "2027-04-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     488,
+     496
+    ],
+    [
+     935,
+     943
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1'655.–",
+   "normalized": "1655.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_old",
+   "spans": [
+    [
+     522,
+     533
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1'690.–",
+   "normalized": "1690.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_new",
+   "spans": [
+    [
+     563,
+     574
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 220.00",
+   "normalized": "220.00",
+   "role": null,
+   "critical": true,
+   "slot": "extra_costs",
+   "spans": [
+    [
+     613,
+     623
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "contest_days",
+   "spans": [
+    [
+     749,
+     751
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 27",
+   "normalized": "Via Cantonale 27",
+   "role": null,
+   "critical": false,
+   "slot": "conc_street",
+   "spans": [
+    [
+     834,
+     850
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6708 Sorvigo",
+   "normalized": "6708 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "conc_postal",
+   "spans": [
+    [
+     852,
+     864
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "art. 270b CO",
+   "normalized": "art. 270b CO",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     866,
+     878
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-07",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "1655.00",
+   "1690.00",
+   "220.00"
+  ],
+  "references": [
+   "4778.75.555"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41916946368",
+  "email": "info@rivaserena.ch"
+ },
+ "action_required": "Pagare la nuova pigione o contestare",
+ "consequence": "La nuova pigione diventa dovuta",
+ "documents": [],
+ "recipient": "Dmytro Shevchenko",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

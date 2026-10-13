@@ -1,0 +1,242 @@
+{
+ "id": "premium_reduction_it_1",
+ "letter_type": "premium_reduction",
+ "lang": "it",
+ "instance": 1,
+ "title": "Decisione riduzione dei premi — Istituto delle assicurazioni sociali Verbano Nord",
+ "authority": "Istituto delle assicurazioni sociali Verbano Nord",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via dei Mulini 33",
+   "normalized": "Via dei Mulini 33",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     70,
+     87
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6867 Riva Serena",
+   "normalized": "6867 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     88,
+     104
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 609 80 76",
+   "normalized": "+41916098076",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     114,
+     130
+    ],
+    [
+     954,
+     970
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@rivaserena.ch",
+   "normalized": "info@rivaserena.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     131,
+     149
+    ],
+    [
+     972,
+     990
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via al Lago 16",
+   "normalized": "Via al Lago 16",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     170,
+     184
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6679 Riva Serena",
+   "normalized": "6679 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     185,
+     201
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19.10.2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     216,
+     226
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "9956388",
+   "normalized": "9956388",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     243,
+     250
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.5087.2403.72",
+   "normalized": "756.5087.2403.72",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     259,
+     275
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1 gennaio 2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     441,
+     455
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 112.50",
+   "normalized": "112.50",
+   "role": null,
+   "critical": true,
+   "slot": "amount_month",
+   "spans": [
+    [
+     479,
+     489
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16 novembre 2026",
+   "normalized": "2026-11-16",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     645,
+     661
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "01.03.2027",
+   "normalized": "2027-03-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     844,
+     854
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     923,
+     925
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": "2026-11-16",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "112.50"
+  ],
+  "references": [
+   "9956388"
+  ],
+  "iban": null,
+  "ahv": "756.5087.2403.72",
+  "phone": "+41916098076",
+  "email": "info@rivaserena.ch"
+ },
+ "action_required": "Inviare notifica di tassazione e contratto di locazione",
+ "consequence": "La riduzione viene sospesa",
+ "documents": [
+  "notifica di tassazione",
+  "contratto di locazione"
+ ],
+ "recipient": "Ayşe Demir",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

@@ -1,0 +1,5002 @@
+{
+ "calibrated": true,
+ "calibrated_at": "2026-10-13T22:03:52",
+ "split": "dev",
+ "n_items": 122,
+ "judge_available": true,
+ "metric": "chrF(back-translation, source plain explanation), placeholders stripped, sacrebleu sentence_chrf",
+ "method": "pooled F2 (review) / F1 (ready) on dev; per-language review threshold if >=3 bad and >=3 good dev items; floors from dev bad rate",
+ "default": {
+  "ready": 55.0,
+  "review": 51.5,
+  "floor": "ready"
+ },
+ "pooled_fit": {
+  "review_f2": 0.8984,
+  "ready_f1": 0.7805
+ },
+ "languages": {
+  "ar": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 10,
+    "bad_rate": 0.0,
+    "chrf_mean": 76.42,
+    "chrf_median": 77.58,
+    "judge_mean": 4.08,
+    "fact_error_rate": 0.167
+   }
+  },
+  "en": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 11,
+    "bad_rate": 0.0,
+    "chrf_mean": 81.98,
+    "chrf_median": 82.29,
+    "judge_mean": 4.58,
+    "fact_error_rate": 0.083
+   }
+  },
+  "es": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 11,
+    "bad_rate": 0.0,
+    "chrf_mean": 78.31,
+    "chrf_median": 77.11,
+    "judge_mean": 4.42,
+    "fact_error_rate": 0.083
+   }
+  },
+  "prs": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 10,
+    "bad_rate": 0.0,
+    "chrf_mean": 67.0,
+    "chrf_median": 66.8,
+    "judge_mean": 4.08,
+    "fact_error_rate": 0.083
+   }
+  },
+  "pt": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 2,
+    "bad": 0,
+    "good": 1,
+    "bad_rate": 0.0,
+    "chrf_mean": 86.53,
+    "chrf_median": 87.47,
+    "judge_mean": 4.5,
+    "fact_error_rate": 0.5
+   }
+  },
+  "so": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "interpreter",
+   "tier": "interpreter_recommended",
+   "floor_reason": "On the dev split 8/12 outputs for Somali were broken or judged wrong in meaning.",
+   "dev_stats": {
+    "n": 12,
+    "bad": 8,
+    "good": 1,
+    "bad_rate": 0.667,
+    "chrf_mean": 41.1,
+    "chrf_median": 44.25,
+    "judge_mean": 2.42,
+    "fact_error_rate": 0.167
+   }
+  },
+  "sq": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 11,
+    "bad_rate": 0.0,
+    "chrf_mean": 80.06,
+    "chrf_median": 80.8,
+    "judge_mean": 4.33,
+    "fact_error_rate": 0.083
+   }
+  },
+  "ta": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "language",
+   "floor": "review",
+   "tier": "review_required",
+   "floor_reason": "On the dev split 3/12 outputs for Tamil were broken or judged wrong in meaning.",
+   "dev_stats": {
+    "n": 12,
+    "bad": 3,
+    "good": 6,
+    "bad_rate": 0.25,
+    "chrf_mean": 45.31,
+    "chrf_median": 45.65,
+    "judge_mean": 3.33,
+    "fact_error_rate": 0.167
+   }
+  },
+  "ti": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "interpreter",
+   "tier": "interpreter_recommended",
+   "floor_reason": "On the dev split 11/12 outputs for Tigrinya were broken or judged wrong in meaning.",
+   "dev_stats": {
+    "n": 12,
+    "bad": 11,
+    "good": 0,
+    "bad_rate": 0.917,
+    "chrf_mean": 14.81,
+    "chrf_median": 0.0,
+    "judge_mean": 1.5,
+    "fact_error_rate": 0.917
+   }
+  },
+  "tr": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 1,
+    "good": 7,
+    "bad_rate": 0.083,
+    "chrf_mean": 64.1,
+    "chrf_median": 74.2,
+    "judge_mean": 4.08,
+    "fact_error_rate": 0.417
+   }
+  },
+  "uk": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 10,
+    "bad_rate": 0.0,
+    "chrf_mean": 75.31,
+    "chrf_median": 76.44,
+    "judge_mean": 4.33,
+    "fact_error_rate": 0.167
+   }
+  }
+ },
+ "items": [
+  {
+   "chrf": 38.67,
+   "judge": 2,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 78.79,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 64.68,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 71.87,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 51.43,
+   "judge": 2,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 54.95,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 46.09,
+   "judge": 3,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "so"
+  },
+  {
+   "chrf": 81.17,
+   "judge": 5,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 83.93,
+   "judge": 5,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "en"
+  },
+  {
+   "chrf": 85.59,
+   "judge": 5,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "pt"
+  },
+  {
+   "chrf": 75.68,
+   "judge": 5,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 10,
+    "preserved": 9,
+    "rate": 0.9,
+    "missed": [
+     "reference:NE-266088"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      0,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "ahv_contributions_fr_0",
+   "target": "es"
+  },
+  {
+   "chrf": 37.29,
+   "judge": 2,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 5,
+    "preserved": 0,
+    "rate": 0.0,
+    "missed": [
+     "phone:+41324222072",
+     "email:info@courtelaine.ch",
+     "reference:N 589 689",
+     "date:2026-10-26",
+     "time:09:00"
+    ],
+    "by_type": {
+     "date": [
+      0
+     ],
+     "email": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "time": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 77.58,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 5,
+    "preserved": 2,
+    "rate": 0.4,
+    "missed": [
+     "phone:+41324222072",
+     "email:info@courtelaine.ch",
+     "reference:N 589 689"
+    ],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 75.31,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 78.69,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 60.04,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 75.31,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 37.64,
+   "judge": 2,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 5,
+    "preserved": 2,
+    "rate": 0.4,
+    "missed": [
+     "phone:+41324222072",
+     "email:info@courtelaine.ch",
+     "reference:N 589 689"
+    ],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "so"
+  },
+  {
+   "chrf": 86.02,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 90.08,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "en"
+  },
+  {
+   "chrf": 87.47,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "pt"
+  },
+  {
+   "chrf": 72.5,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 5,
+    "preserved": 5,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "asylum_interview_fr_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 1,
+    "rate": 0.125,
+    "missed": [
+     "phone:+41919865317",
+     "email:info@montelago.ch",
+     "reference:26-339611",
+     "amount:53.30",
+     "duration:P20D",
+     "iban:CH3411354438072525859",
+     "duration:P10D"
+    ],
+    "by_type": {
+     "iban": [
+      0
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      1,
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "duration": [
+      0,
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 70.65,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 73.36,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 63.88,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 7,
+    "rate": 0.875,
+    "missed": [
+     "duration:P20D"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      0,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 42.04,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 4.22,
+   "judge": 2,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 0,
+    "rate": 0.0,
+    "missed": [
+     "phone:+41919865317",
+     "email:info@montelago.ch",
+     "reference:26-339611",
+     "amount:3400.00",
+     "amount:53.30",
+     "duration:P20D",
+     "iban:CH3411354438072525859",
+     "duration:P10D"
+    ],
+    "by_type": {
+     "iban": [
+      0
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      0,
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "duration": [
+      0,
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 44.5,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "so"
+  },
+  {
+   "chrf": 71.7,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 79.37,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "en"
+  },
+  {
+   "chrf": 85.25,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "debt_collection_it_0",
+   "target": "es"
+  },
+  {
+   "chrf": 23.33,
+   "judge": 2,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 2,
+    "rate": 0.2857,
+    "missed": [
+     "phone:+41915584011",
+     "email:info@sorvigo.ch",
+     "reference:FAK-248194",
+     "date:2026-11-19",
+     "amount:325.00"
+    ],
+    "by_type": {
+     "date": [
+      0,
+      1,
+      1
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 62.84,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 58.29,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 68.57,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 40.09,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 5,
+    "rate": 0.7143,
+    "missed": [
+     "phone:+41915584011",
+     "email:info@sorvigo.ch"
+    ],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 63.14,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 5,
+    "rate": 0.7143,
+    "missed": [
+     "date:2026-10-29",
+     "date:2026-12-02"
+    ],
+    "by_type": {
+     "date": [
+      1,
+      0,
+      0
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 37.95,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "so"
+  },
+  {
+   "chrf": 80.8,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 75.82,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "en"
+  },
+  {
+   "chrf": 73.94,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "family_allowance_it_0",
+   "target": "es"
+  },
+  {
+   "chrf": 32.19,
+   "judge": 2,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 5,
+    "rate": 0.7143,
+    "missed": [
+     "phone:+41917007756",
+     "email:info@rivaserena.ch"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 83.58,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 64.52,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 77.09,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 34.57,
+   "judge": 3,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 74.2,
+   "judge": 5,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 6,
+    "rate": 0.8571,
+    "missed": [
+     "duration:P30D"
+    ],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      0
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 44.15,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "so"
+  },
+  {
+   "chrf": 79.9,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 82.29,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "en"
+  },
+  {
+   "chrf": 84.04,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "fine_notice_it_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 9,
+    "preserved": 1,
+    "rate": 0.1111,
+    "missed": [
+     "phone:+41314425315",
+     "email:info@birkental.ch",
+     "reference:897.2556.7882",
+     "reference:R-2026-138545",
+     "amount:798.00",
+     "amount:40.00",
+     "amount:838.00",
+     "iban:CH0995739446186556771"
+    ],
+    "by_type": {
+     "iban": [
+      0
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      0,
+      0,
+      0
+     ],
+     "reference": [
+      0,
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 81.95,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 79.46,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 83.85,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 43.76,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 75.19,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 49.8,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "so"
+  },
+  {
+   "chrf": 72.67,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 79.65,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "en"
+  },
+  {
+   "chrf": 70.07,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "health_insurance_reminder_de_0",
+   "target": "es"
+  },
+  {
+   "chrf": 46.26,
+   "judge": 3,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 73.5,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 66.42,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 72.47,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 41.08,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 66.95,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 44.25,
+   "judge": 3,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "so"
+  },
+  {
+   "chrf": 80.3,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 76.06,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "en"
+  },
+  {
+   "chrf": 82.22,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "iban": [
+      1
+     ],
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "reference": [
+      1,
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "permit_renewal_it_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 9,
+    "preserved": 0,
+    "rate": 0.0,
+    "missed": [
+     "phone:+41266157578",
+     "email:info@bellecombesurlac.ch",
+     "reference:3378921",
+     "ahv:756.5941.2910.14",
+     "date:2027-01-01",
+     "amount:112.50",
+     "date:2026-11-09",
+     "date:2027-03-01",
+     "duration:P30D"
+    ],
+    "by_type": {
+     "date": [
+      0,
+      0,
+      0
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      0
+     ],
+     "ahv": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "duration": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 74.25,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 75.7,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 76.34,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 46.84,
+   "judge": 3,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 74.98,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 39.72,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "so"
+  },
+  {
+   "chrf": 79.24,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 79.61,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "en"
+  },
+  {
+   "chrf": 86.1,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 9,
+    "preserved": 9,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1
+     ],
+     "ahv": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "premium_reduction_fr_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 0,
+    "rate": 0.0,
+    "missed": [
+     "phone:+41444653853",
+     "email:info@hohenbuehl.ch",
+     "reference:8434.69.216",
+     "date:2027-01-01",
+     "amount:1655.00",
+     "amount:1703.00",
+     "amount:260.00",
+     "duration:P30D"
+    ],
+    "by_type": {
+     "date": [
+      0
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      0,
+      0,
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "duration": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 78.8,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 64.6,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 77.39,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 49.78,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 67.55,
+   "judge": 4,
+   "broken": false,
+   "fact_error": true,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 7,
+    "rate": 0.875,
+    "missed": [
+     "date:2027-01-01"
+    ],
+    "by_type": {
+     "date": [
+      0
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 54.64,
+   "judge": 3,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "so"
+  },
+  {
+   "chrf": 77.87,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 82.34,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "en"
+  },
+  {
+   "chrf": 77.11,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 8,
+    "preserved": 8,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "duration": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "rent_increase_de_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 0,
+    "rate": 0.0,
+    "missed": [
+     "phone:+41324913461",
+     "email:info@bellecombesurlac.ch",
+     "reference:SCH-2026-4343",
+     "date:2027-08-16",
+     "date:2026-11-13",
+     "date:2026-10-28",
+     "time:19:00"
+    ],
+    "by_type": {
+     "date": [
+      0,
+      0,
+      0
+     ],
+     "email": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "time": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 77.12,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 66.8,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 80.99,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 45.65,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 79.84,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 34.32,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "so"
+  },
+  {
+   "chrf": 84.33,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 88.98,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "en"
+  },
+  {
+   "chrf": 93.36,
+   "judge": 5,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 7,
+    "preserved": 7,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "school_enrolment_fr_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 6,
+    "preserved": 0,
+    "rate": 0.0,
+    "missed": [
+     "phone:+41523366249",
+     "email:sozialdienst@birkental.ch",
+     "reference:SOZ-2026-85797",
+     "date:2026-10-14",
+     "time:10:30",
+     "date:2026-10-12"
+    ],
+    "by_type": {
+     "date": [
+      0,
+      0
+     ],
+     "email": [
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "time": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 82.42,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 39.8,
+   "judge": 3,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": true,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 76.44,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 39.62,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 75.41,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 47.03,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "so"
+  },
+  {
+   "chrf": 84.16,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 80.28,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "en"
+  },
+  {
+   "chrf": 72.78,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1,
+      1
+     ],
+     "email": [
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "time": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "social_assistance_appointment_de_0",
+   "target": "es"
+  },
+  {
+   "chrf": 0.0,
+   "judge": 1,
+   "broken": true,
+   "fact_error": true,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 6,
+    "preserved": 1,
+    "rate": 0.1667,
+    "missed": [
+     "phone:+41615645286",
+     "email:steueramt@hohenbuehl.ch",
+     "reference:9.160.899.58",
+     "amount:1000.00",
+     "amount:20.00"
+    ],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      0
+     ],
+     "amount": [
+      0,
+      0
+     ],
+     "reference": [
+      0
+     ],
+     "phone": [
+      0
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "ti"
+  },
+  {
+   "chrf": 75.55,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "ar"
+  },
+  {
+   "chrf": 75.05,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "prs"
+  },
+  {
+   "chrf": 76.2,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "uk"
+  },
+  {
+   "chrf": 48.83,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "ta"
+  },
+  {
+   "chrf": 57.49,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "tr"
+  },
+  {
+   "chrf": 13.14,
+   "judge": 2,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": true,
+   "bad": true,
+   "not_good": true,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "so"
+  },
+  {
+   "chrf": 82.61,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "sq"
+  },
+  {
+   "chrf": 85.29,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "en"
+  },
+  {
+   "chrf": 66.63,
+   "judge": 4,
+   "broken": false,
+   "fact_error": false,
+   "meaning_bad": false,
+   "bad": false,
+   "not_good": false,
+   "preservation": {
+    "n": 6,
+    "preserved": 6,
+    "rate": 1.0,
+    "missed": [],
+    "by_type": {
+     "date": [
+      1
+     ],
+     "email": [
+      1
+     ],
+     "amount": [
+      1,
+      1
+     ],
+     "reference": [
+      1
+     ],
+     "phone": [
+      1
+     ]
+    }
+   },
+   "id": "tax_reminder_de_0",
+   "target": "es"
+  }
+ ]
+}

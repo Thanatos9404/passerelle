@@ -1,0 +1,242 @@
+{
+ "id": "health_insurance_reminder_fr_1",
+ "letter_type": "health_insurance_reminder",
+ "lang": "fr",
+ "instance": 1,
+ "title": "Caisse-maladie : 2e rappel — Caisse-maladie Alpenrose SA",
+ "authority": "Caisse-maladie Alpenrose SA",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Lac 16",
+   "normalized": "Rue du Lac 16",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     41,
+     54
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1418 Montverlin",
+   "normalized": "1418 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     55,
+     70
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 24 979 24 35",
+   "normalized": "+41249792435",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     81,
+     97
+    ],
+    [
+     780,
+     796
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montverlin.ch",
+   "normalized": "info@montverlin.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     98,
+     116
+    ],
+    [
+     798,
+     816
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Place de l'Église 20",
+   "normalized": "Place de l'Église 20",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     138,
+     158
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2233 Montverlin",
+   "normalized": "2233 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     159,
+     174
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "5 octobre 2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     191,
+     205
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "691.7220.3721",
+   "normalized": "691.7220.3721",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     221,
+     234
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "R-2026-856480",
+   "normalized": "R-2026-856480",
+   "role": null,
+   "critical": true,
+   "slot": "invoice",
+   "spans": [
+    [
+     248,
+     261
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "798.00 CHF",
+   "normalized": "798.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_open",
+   "spans": [
+    [
+     396,
+     406
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 30.00",
+   "normalized": "30.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     425,
+     434
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 828.00",
+   "normalized": "828.00",
+   "role": null,
+   "critical": true,
+   "slot": "total",
+   "spans": [
+    [
+     443,
+     453
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19.10.2026",
+   "normalized": "2026-10-19",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     489,
+     499
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH51 9875 7378 2665 1002 7",
+   "normalized": "CH5198757378266510027",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     511,
+     537
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-10-19",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "798.00",
+   "30.00",
+   "828.00"
+  ],
+  "references": [
+   "691.7220.3721",
+   "R-2026-856480"
+  ],
+  "iban": "CH5198757378266510027",
+  "ahv": null,
+  "phone": "+41249792435",
+  "email": "info@montverlin.ch"
+ },
+ "action_required": "Payer le montant dû avec les frais",
+ "consequence": "Poursuite avec frais",
+ "documents": [],
+ "recipient": "Amina Ahmadi",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

@@ -1,0 +1,250 @@
+{
+ "id": "fine_notice_de_1",
+ "letter_type": "fine_notice",
+ "lang": "de",
+ "instance": 1,
+ "title": "Ordnungsbusse — Stadtpolizei Hohenbühl",
+ "authority": "Stadtpolizei Hohenbühl",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Seestrasse 28",
+   "normalized": "Seestrasse 28",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     38,
+     51
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "7992 Hohenbühl",
+   "normalized": "7992 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     52,
+     66
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "044 700 74 63",
+   "normalized": "+41447007463",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     72,
+     85
+    ],
+    [
+     809,
+     822
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@hohenbuehl.ch",
+   "normalized": "info@hohenbuehl.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     86,
+     104
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Kirchgasse 45",
+   "normalized": "Kirchgasse 45",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     124,
+     137
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6867 Hohenbühl",
+   "normalized": "6867 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     138,
+     152
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "12. Oktober 2026",
+   "normalized": "2026-10-12",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     165,
+     181
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "OB-2026-994844",
+   "normalized": "OB-2026-994844",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     194,
+     208
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "29.9.2026",
+   "normalized": "2026-09-29",
+   "role": "past",
+   "critical": false,
+   "slot": "offence_date",
+   "spans": [
+    [
+     255,
+     264
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "14:05 Uhr",
+   "normalized": "14:05",
+   "role": "other",
+   "critical": false,
+   "slot": "offence_time",
+   "spans": [
+    [
+     268,
+     277
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Lindenstrasse 42",
+   "normalized": "Lindenstrasse 42",
+   "role": null,
+   "critical": false,
+   "slot": "offence_street",
+   "spans": [
+    [
+     324,
+     340
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 40.00",
+   "normalized": "40.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount",
+   "spans": [
+    [
+     421,
+     430
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     468,
+     470
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH97 5468 3129 5737 2292 7",
+   "normalized": "CH9754683129573722927",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     525,
+     551
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "04 75860 94082 93714 58755 91812",
+   "normalized": "04 75860 94082 93714 58755 91812",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     562,
+     594
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-12",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "40.00"
+  ],
+  "references": [
+   "OB-2026-994844",
+   "04 75860 94082 93714 58755 91812"
+  ],
+  "iban": "CH9754683129573722927",
+  "ahv": null,
+  "phone": "+41447007463",
+  "email": "info@hohenbuehl.ch"
+ },
+ "action_required": "Busse innert Frist bezahlen",
+ "consequence": "Ordentliches Strafverfahren mit Zusatzkosten",
+ "documents": [],
+ "recipient": "Yonas Tesfay",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

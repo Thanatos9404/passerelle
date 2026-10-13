@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="'Open Runde', 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1A1615"/>
+    </marker>
+    <marker id="arrm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#757170"/>
+    </marker>
+    <filter id="sh" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#614A44" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1A1615" letter-spacing="-0.4">Passerelle — target architecture (b): air-gapped</text>
+  <text x="40" y="68" font-size="13" fill="#757170">Everything runs inside the authority's network. Build time needs the internet (images, packages, weights); runtime does not.</text>
+
+  <!-- air-gapped boundary -->
+  <rect x="30" y="88" width="1140" height="470" rx="26" fill="#F4F1EE" stroke="#757170" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <text x="54" y="114" font-size="12" font-weight="700" fill="#757170" letter-spacing="1.2">AUTHORITY NETWORK · NO EXTERNAL CONNECTIVITY AT RUNTIME</text>
+
+  <!-- caseworker -->
+  <g filter="url(#sh)">
+    <rect x="54" y="140" width="170" height="160" rx="20" fill="#FFFFFF"/>
+  </g>
+  <text x="70" y="170" font-size="15" font-weight="700" fill="#1A1615">Caseworker</text>
+  <text x="70" y="192" font-size="12" fill="#453F3D">browser, laptop or</text>
+  <text x="70" y="208" font-size="12" fill="#453F3D">counter PC</text>
+  <text x="70" y="236" font-size="12" fill="#453F3D">Static UI (Next.js</text>
+  <text x="70" y="252" font-size="12" fill="#453F3D">export), self-hosted</text>
+  <text x="70" y="268" font-size="12" fill="#453F3D">fonts, no CDN</text>
+  <text x="70" y="290" font-size="11" fill="#757170">client sits next to them</text>
+
+  <line x1="226" y1="220" x2="262" y2="220" stroke="#1A1615" stroke-width="1.6" marker-end="url(#arr)" marker-start="url(#arr)"/>
+  <text x="229" y="210" font-size="10" fill="#757170">HTTP</text>
+
+  <!-- app container -->
+  <g filter="url(#sh)">
+    <rect x="266" y="130" width="610" height="410" rx="24" fill="#FFFFFF"/>
+  </g>
+  <text x="290" y="160" font-size="15" font-weight="700" fill="#1A1615">app container · FastAPI · non-root · port 8080</text>
+  <text x="290" y="179" font-size="12" fill="#757170">OpenAI-compatible calls; Apertus' own chat template applied server-side</text>
+
+  <!-- pipeline row 1 -->
+  <g font-size="12">
+    <rect x="290" y="196" width="128" height="74" rx="14" fill="#F0EAE5"/>
+    <text x="302" y="218" font-weight="700" fill="#1A1615">1 Read</text>
+    <text x="302" y="237" fill="#453F3D">text / PDF layer</text>
+    <text x="302" y="253" fill="#453F3D">DE · FR · IT detect</text>
+
+    <rect x="432" y="196" width="138" height="74" rx="14" fill="#F0EAE5"/>
+    <text x="444" y="218" font-weight="700" fill="#1A1615">2 Extract</text>
+    <text x="444" y="237" fill="#453F3D">Swiss-format rules</text>
+    <text x="444" y="253" fill="#453F3D">+ Apertus JSON</text>
+
+    <rect x="584" y="196" width="134" height="74" rx="14" fill="#F0EAE5"/>
+    <text x="596" y="218" font-weight="700" fill="#1A1615">3 Ground</text>
+    <text x="596" y="237" fill="#453F3D">every value must</text>
+    <text x="596" y="253" fill="#453F3D">occur in the letter</text>
+
+    <rect x="732" y="196" width="122" height="74" rx="14" fill="#1A1615"/>
+    <text x="744" y="218" font-weight="700" fill="#FFFFFF">4 Fact-lock</text>
+    <text x="744" y="237" fill="#F0EAE5">⟦D1⟧ ⟦A1⟧ ⟦R1⟧</text>
+    <text x="744" y="253" fill="#F0EAE5">no digits to model</text>
+  </g>
+  <g stroke="#1A1615" stroke-width="1.4" marker-end="url(#arr)">
+    <line x1="419" y1="233" x2="430" y2="233"/>
+    <line x1="571" y1="233" x2="582" y2="233"/>
+    <line x1="719" y1="233" x2="730" y2="233"/>
+  </g>
+  <path d="M 793 271 L 793 286 L 354 286 L 354 300" fill="none" stroke="#1A1615" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- pipeline row 2 -->
+  <g font-size="12">
+    <rect x="290" y="302" width="146" height="90" rx="14" fill="#F0EAE5"/>
+    <text x="302" y="324" font-weight="700" fill="#1A1615">5 Explain</text>
+    <text x="302" y="343" fill="#453F3D">plain A2 text in the</text>
+    <text x="302" y="359" fill="#453F3D">letter's language,</text>
+    <text x="302" y="375" fill="#453F3D">then translate</text>
+
+    <rect x="450" y="302" width="156" height="90" rx="14" fill="#F0EAE5"/>
+    <text x="462" y="324" font-weight="700" fill="#1A1615">6 Verify</text>
+    <text x="462" y="343" fill="#453F3D">back-translate · chrF</text>
+    <text x="462" y="359" fill="#453F3D">placeholder + number</text>
+    <text x="462" y="375" fill="#453F3D">audit · script check</text>
+
+    <rect x="620" y="302" width="120" height="90" rx="14" fill="#9CC1E7"/>
+    <text x="632" y="324" font-weight="700" fill="#1A1615">7 Gate</text>
+    <text x="632" y="343" fill="#1A1615">Ready</text>
+    <text x="632" y="359" fill="#1A1615">Review with client</text>
+    <text x="632" y="375" fill="#1A1615">Interpreter</text>
+
+    <rect x="754" y="302" width="100" height="90" rx="14" fill="#F0EAE5"/>
+    <text x="766" y="324" font-weight="700" fill="#1A1615">8 Unmask</text>
+    <text x="766" y="343" fill="#453F3D">verified,</text>
+    <text x="766" y="359" fill="#453F3D">locale-safe</text>
+    <text x="766" y="375" fill="#453F3D">values</text>
+  </g>
+  <g stroke="#1A1615" stroke-width="1.4" marker-end="url(#arr)">
+    <line x1="437" y1="347" x2="448" y2="347"/>
+    <line x1="607" y1="347" x2="618" y2="347"/>
+    <line x1="741" y1="347" x2="752" y2="347"/>
+  </g>
+
+  <!-- reply -->
+  <rect x="290" y="406" width="564" height="40" rx="12" fill="#FFFFFF" stroke="#F0EAE5" stroke-width="2"/>
+  <text x="304" y="431" font-size="12" fill="#453F3D"><tspan font-weight="700" fill="#1A1615">Reply</tspan>  client's message → formal DE/FR/IT draft, numbers locked, caseworker approves</text>
+
+  <!-- cross-cutting -->
+  <g font-size="12">
+    <rect x="290" y="460" width="178" height="62" rx="12" fill="#1A1615"/>
+    <text x="302" y="484" font-weight="700" fill="#FFFFFF">Egress guard</text>
+    <text x="302" y="503" fill="#F0EAE5">only LLM_BASE_URL host;</text>
+    <text x="302" y="517" fill="#F0EAE5">socket-level block</text>
+
+    <rect x="482" y="460" width="188" height="62" rx="12" fill="#1A1615"/>
+    <text x="494" y="484" font-weight="700" fill="#FFFFFF">Audit log</text>
+    <text x="494" y="503" fill="#F0EAE5">append-only, hash-chained,</text>
+    <text x="494" y="517" fill="#F0EAE5">SHA-256 of content only</text>
+
+    <rect x="684" y="460" width="170" height="62" rx="12" fill="#1A1615"/>
+    <text x="696" y="484" font-weight="700" fill="#FFFFFF">Redaction</text>
+    <text x="696" y="503" fill="#F0EAE5">names, addresses, AHV,</text>
+    <text x="696" y="517" fill="#F0EAE5">IBAN in exports</text>
+  </g>
+
+  <!-- LLM container -->
+  <g filter="url(#sh)">
+    <rect x="928" y="196" width="220" height="250" rx="24" fill="#FFFFFF"/>
+  </g>
+  <text x="946" y="226" font-size="15" font-weight="700" fill="#1A1615">llm container</text>
+  <g font-size="12" fill="#453F3D">
+    <text x="946" y="250">llama.cpp server (official</text>
+    <text x="946" y="266">image), --jinja chat template</text>
+    <text x="946" y="294" font-weight="700" fill="#1A1615">Apertus v1.5 8B</text>
+    <text x="946" y="310">Q4_K_M GGUF, 5.1 GB,</text>
+    <text x="946" y="326">./models mounted read-only</text>
+    <text x="946" y="354">CPU, or one 6 GB GPU</text>
+    <text x="946" y="370">(RTX 4050 laptop: ~34 tok/s)</text>
+    <text x="946" y="398">network: internal only</text>
+    <text x="946" y="414">(Docker "airgap")</text>
+  </g>
+  <line x1="878" y1="300" x2="924" y2="300" stroke="#1A1615" stroke-width="1.6" marker-end="url(#arr)" marker-start="url(#arr)"/>
+  <text x="880" y="290" font-size="10" fill="#757170">/v1/chat</text>
+
+  <!-- other architectures -->
+  <text x="40" y="592" font-size="12" font-weight="700" fill="#757170" letter-spacing="1.2">SAME IMAGE, OTHER TARGETS</text>
+  <rect x="40" y="604" width="555" height="72" rx="16" fill="#F0EAE5"/>
+  <text x="58" y="630" font-size="13" font-weight="700" fill="#1A1615">(a) On-premise</text>
+  <text x="58" y="650" font-size="12" fill="#453F3D">docker compose on the authority's servers; Apertus on a local GPU</text>
+  <text x="58" y="666" font-size="12" fill="#453F3D">server (vLLM / llama.cpp); LLM_BASE_URL points to it.</text>
+  <rect x="609" y="604" width="551" height="72" rx="16" fill="#F0EAE5"/>
+  <text x="627" y="630" font-size="13" font-weight="700" fill="#1A1615">(c) Sovereign Swiss cloud</text>
+  <text x="627" y="650" font-size="12" fill="#453F3D">app in a Swiss-hosted cluster; LLM_BASE_URL = Apertus 70B endpoint operated</text>
+  <text x="627" y="666" font-size="12" fill="#453F3D">in Switzerland; the egress guard admits only that host.</text>
+</svg>

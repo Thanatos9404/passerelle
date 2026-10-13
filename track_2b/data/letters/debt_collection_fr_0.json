@@ -1,0 +1,274 @@
+{
+ "id": "debt_collection_fr_0",
+ "letter_type": "debt_collection",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Commandement de payer — Office des poursuites de Valdorée",
+ "authority": "Office des poursuites de Valdorée",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Marché 40",
+   "normalized": "Rue du Marché 40",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     45,
+     61
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1293 Valdorée",
+   "normalized": "1293 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     62,
+     75
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "021 381 91 61",
+   "normalized": "+41213819161",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     81,
+     94
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@valdoree.ch",
+   "normalized": "info@valdoree.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     95,
+     111
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Avenue de la Gare 31",
+   "normalized": "Avenue de la Gare 31",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     138,
+     158
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1810 Valdorée",
+   "normalized": "1810 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     159,
+     172
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "12.10.2026",
+   "normalized": "2026-10-12",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     187,
+     197
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "26-168927",
+   "normalized": "26-168927",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     234,
+     243
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 2'310.75",
+   "normalized": "2310.75",
+   "role": null,
+   "critical": true,
+   "slot": "amount_main",
+   "spans": [
+    [
+     338,
+     350
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1er juin 2026",
+   "normalized": "2026-06-01",
+   "role": "past",
+   "critical": false,
+   "slot": "interest_from",
+   "spans": [
+    [
+     378,
+     391
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 73.30",
+   "normalized": "73.30",
+   "role": null,
+   "critical": true,
+   "slot": "costs",
+   "spans": [
+    [
+     413,
+     422
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "20",
+   "normalized": "P20D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     543,
+     545
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH34 3397 7220 6235 8335 1",
+   "normalized": "CH3433977220623583351",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     591,
+     617
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "10",
+   "normalized": "P10D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     741,
+     743
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "art. 74 LP",
+   "normalized": "art. 74 LP",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     795,
+     805
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "8 h 00",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     977,
+     983
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11:30",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     986,
+     991
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-12",
+  "deadline": null,
+  "deadline_relative": "P20D",
+  "appointment": null,
+  "amounts": [
+   "2310.75",
+   "73.30"
+  ],
+  "references": [
+   "26-168927"
+  ],
+  "iban": "CH3433977220623583351",
+  "ahv": null,
+  "phone": "+41213819161",
+  "email": "info@valdoree.ch"
+ },
+ "action_required": "Payer ou former opposition dans le délai",
+ "consequence": "Continuation de la poursuite (saisie)",
+ "documents": [],
+ "recipient": "Ricardo Pereira",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

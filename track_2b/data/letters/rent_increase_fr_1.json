@@ -1,0 +1,277 @@
+{
+ "id": "rent_increase_fr_1",
+ "letter_type": "rent_increase",
+ "lang": "fr",
+ "instance": 1,
+ "title": "Majoration de loyer — Régie du Léman-Sud SA",
+ "authority": "Régie du Léman-Sud SA",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Route de la Forêt 35",
+   "normalized": "Route de la Forêt 35",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     30,
+     50
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2813 Valdorée",
+   "normalized": "2813 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     51,
+     64
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "021/866 60 48",
+   "normalized": "+41218666048",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     70,
+     83
+    ],
+    [
+     978,
+     991
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@valdoree.ch",
+   "normalized": "info@valdoree.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     84,
+     100
+    ],
+    [
+     993,
+     1009
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue des Tilleuls 10",
+   "normalized": "Rue des Tilleuls 10",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     125,
+     144
+    ],
+    [
+     223,
+     242
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2545 Valdorée",
+   "normalized": "2545 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     145,
+     158
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19.10.2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     173,
+     183
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "3745.60.631",
+   "normalized": "3745.60.631",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     203,
+     214
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1er janvier 2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     427,
+     443
+    ],
+    [
+     922,
+     938
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "1 180.00 CHF",
+   "normalized": "1180.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_old",
+   "spans": [
+    [
+     465,
+     477
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "1 242.00 CHF",
+   "normalized": "1242.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_new",
+   "spans": [
+    [
+     507,
+     519
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 220.–",
+   "normalized": "220.00",
+   "role": null,
+   "critical": true,
+   "slot": "extra_costs",
+   "spans": [
+    [
+     552,
+     561
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "contest_days",
+   "spans": [
+    [
+     713,
+     715
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Avenue de la Gare 30",
+   "normalized": "Avenue de la Gare 30",
+   "role": null,
+   "critical": false,
+   "slot": "conc_street",
+   "spans": [
+    [
+     806,
+     826
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1982 Montverlin",
+   "normalized": "1982 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "conc_postal",
+   "spans": [
+    [
+     828,
+     843
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "art. 270b CO",
+   "normalized": "art. 270b CO",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     845,
+     857
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "1180.00",
+   "1242.00",
+   "220.00"
+  ],
+  "references": [
+   "3745.60.631"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41218666048",
+  "email": "info@valdoree.ch"
+ },
+ "action_required": "Payer le nouveau loyer ou contester",
+ "consequence": "Le nouveau loyer devient dû",
+ "documents": [],
+ "recipient": "Olena Kovalenko",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

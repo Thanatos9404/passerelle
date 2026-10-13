@@ -1,0 +1,197 @@
+{
+ "id": "tax_reminder_it_0",
+ "letter_type": "tax_reminder",
+ "lang": "it",
+ "instance": 0,
+ "title": "Richiamo dichiarazione d'imposta — Comune di Riva Serena",
+ "authority": "Comune di Riva Serena",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via dei Mulini 28",
+   "normalized": "Via dei Mulini 28",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     44,
+     61
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6587 Riva Serena",
+   "normalized": "6587 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     62,
+     78
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091 570 52 98",
+   "normalized": "+41915705298",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     88,
+     101
+    ],
+    [
+     833,
+     846
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "steueramt@rivaserena.ch",
+   "normalized": "steueramt@rivaserena.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     102,
+     125
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via dei Mulini 17",
+   "normalized": "Via dei Mulini 17",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     150,
+     167
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6667 Riva Serena",
+   "normalized": "6667 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     168,
+     184
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "15.10.2026",
+   "normalized": "2026-10-15",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     199,
+     209
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "4.200.710.70",
+   "normalized": "4.200.710.70",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     228,
+     240
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19 novembre 2026",
+   "normalized": "2026-11-19",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     534,
+     550
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1’000.–",
+   "normalized": "1000.00",
+   "role": null,
+   "critical": true,
+   "slot": "fine",
+   "spans": [
+    [
+     696,
+     707
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 50.00",
+   "normalized": "50.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     762,
+     771
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-15",
+  "deadline": "2026-11-19",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "1000.00",
+   "50.00"
+  ],
+  "references": [
+   "4.200.710.70"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41915705298",
+  "email": "steueramt@rivaserena.ch"
+ },
+ "action_required": "Inoltrare la dichiarazione d'imposta con i giustificativi",
+ "consequence": "Tassazione d'ufficio e multa disciplinare",
+ "documents": [
+  "dichiarazione d'imposta",
+  "documenti giustificativi"
+ ],
+ "recipient": "Ricardo Pereira",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

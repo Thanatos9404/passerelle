@@ -1,0 +1,255 @@
+{
+ "id": "permit_renewal_fr_0",
+ "letter_type": "permit_renewal",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Renouvellement autorisation de séjour B — Service de la population et des migrants Jura-Lac",
+ "authority": "Service de la population et des migrants Jura-Lac",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue des Tilleuls 21",
+   "normalized": "Rue des Tilleuls 21",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     65,
+     84
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2544 Courtelaine",
+   "normalized": "2544 Courtelaine",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     85,
+     101
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "022 478 86 29",
+   "normalized": "+41224788629",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     107,
+     120
+    ],
+    [
+     1123,
+     1136
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@courtelaine.ch",
+   "normalized": "info@courtelaine.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     121,
+     140
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Place de l'Église 7",
+   "normalized": "Place de l'Église 7",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     161,
+     180
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1818 Courtelaine",
+   "normalized": "1818 Courtelaine",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     181,
+     197
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "05.10.2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     215,
+     225
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "MIG-2026-211284",
+   "normalized": "MIG-2026-211284",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     240,
+     255
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "58370086.4",
+   "normalized": "58370086.4",
+   "role": null,
+   "critical": true,
+   "slot": "zemis",
+   "spans": [
+    [
+     267,
+     277
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "08.12.2026",
+   "normalized": "2026-12-08",
+   "role": "effective",
+   "critical": true,
+   "slot": "expiry",
+   "spans": [
+    [
+     390,
+     400
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.11.2026",
+   "normalized": "2026-11-16",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     561,
+     571
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "120.00 CHF",
+   "normalized": "120.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     820,
+     830
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH76 3526 2345 0369 7216 7",
+   "normalized": "CH7635262345036972167",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     898,
+     924
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "08:00",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     1162,
+     1167
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11:30",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     1170,
+     1175
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-11-16",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "120.00"
+  ],
+  "references": [
+   "MIG-2026-211284",
+   "58370086.4"
+  ],
+  "iban": "CH7635262345036972167",
+  "ahv": null,
+  "phone": "+41224788629",
+  "email": "info@courtelaine.ch"
+ },
+ "action_required": "Demander le renouvellement avec les documents et payer l'émolument",
+ "consequence": "Séjour sans autorisation, mesures du droit des étrangers",
+ "documents": [
+  "passeport",
+  "photo",
+  "contrat de travail ou attestation d'aide sociale",
+  "bail"
+ ],
+ "recipient": "Lucía Gómez",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

@@ -1,0 +1,242 @@
+{
+ "id": "health_insurance_reminder_it_0",
+ "letter_type": "health_insurance_reminder",
+ "lang": "it",
+ "instance": 0,
+ "title": "Cassa malati: 2° richiamo — Cassa malati Monteverde SA",
+ "authority": "Cassa malati Monteverde SA",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via al Lago 1",
+   "normalized": "Via al Lago 1",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     35,
+     48
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6672 Montelago",
+   "normalized": "6672 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     49,
+     63
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091 576 84 80",
+   "normalized": "+41915768480",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     69,
+     82
+    ],
+    [
+     764,
+     777
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montelago.ch",
+   "normalized": "info@montelago.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     83,
+     100
+    ],
+    [
+     779,
+     796
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 9",
+   "normalized": "Via Cantonale 9",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     127,
+     142
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6994 Montelago",
+   "normalized": "6994 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     143,
+     157
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "05.10.2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     170,
+     180
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "929.4054.1914",
+   "normalized": "929.4054.1914",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     197,
+     210
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "R-2026-715141",
+   "normalized": "R-2026-715141",
+   "role": null,
+   "critical": true,
+   "slot": "invoice",
+   "spans": [
+    [
+     223,
+     236
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 655.20",
+   "normalized": "655.20",
+   "role": null,
+   "critical": true,
+   "slot": "amount_open",
+   "spans": [
+    [
+     401,
+     411
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 40.00",
+   "normalized": "40.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     431,
+     440
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 695.20",
+   "normalized": "695.20",
+   "role": null,
+   "critical": true,
+   "slot": "total",
+   "spans": [
+    [
+     449,
+     459
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "15.10.2026",
+   "normalized": "2026-10-15",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     504,
+     514
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH94 9422 8100 7494 8971 1",
+   "normalized": "CH9494228100749489711",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     525,
+     551
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-10-15",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "655.20",
+   "40.00",
+   "695.20"
+  ],
+  "references": [
+   "929.4054.1914",
+   "R-2026-715141"
+  ],
+  "iban": "CH9494228100749489711",
+  "ahv": null,
+  "phone": "+41915768480",
+  "email": "info@montelago.ch"
+ },
+ "action_required": "Pagare l'importo scoperto con le spese",
+ "consequence": "Esecuzione con spese",
+ "documents": [],
+ "recipient": "Kumaran Sivakumar",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

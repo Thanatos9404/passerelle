@@ -1,0 +1,213 @@
+{
+ "id": "social_assistance_appointment_it_1",
+ "letter_type": "social_assistance_appointment",
+ "lang": "it",
+ "instance": 1,
+ "title": "Convocazione servizio sociale — Comune di Sorvigo",
+ "authority": "Comune di Sorvigo",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Viale Stazione 12",
+   "normalized": "Viale Stazione 12",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     35,
+     52
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6894 Sorvigo",
+   "normalized": "6894 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     53,
+     65
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 526 74 43",
+   "normalized": "+41915267443",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     71,
+     87
+    ],
+    [
+     714,
+     730
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "sozialdienst@sorvigo.ch",
+   "normalized": "sozialdienst@sorvigo.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     88,
+     111
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via delle Scuole 1",
+   "normalized": "Via delle Scuole 1",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     135,
+     153
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6657 Sorvigo",
+   "normalized": "6657 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     154,
+     166
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19 ottobre 2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     177,
+     192
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SOZ-2026-29604",
+   "normalized": "SOZ-2026-29604",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     206,
+     220
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.11.2026",
+   "normalized": "2026-11-09",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_date",
+   "spans": [
+    [
+     366,
+     376
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "08:30",
+   "normalized": "08:30",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_time",
+   "spans": [
+    [
+     382,
+     387
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Piazza Grande 7",
+   "normalized": "Piazza Grande 7",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_street",
+   "spans": [
+    [
+     424,
+     439
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "7 novembre 2026",
+   "normalized": "2026-11-07",
+   "role": "deadline",
+   "critical": true,
+   "slot": "cancel_deadline",
+   "spans": [
+    [
+     688,
+     703
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": "2026-11-07",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-09",
+   "time": "08:30"
+  },
+  "amounts": [],
+  "references": [
+   "SOZ-2026-29604"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41915267443",
+  "email": "sozialdienst@sorvigo.ch"
+ },
+ "action_required": "Presentarsi al colloquio con i documenti",
+ "consequence": "L'aiuto economico può essere ridotto",
+ "documents": [
+  "estratti conto",
+  "fattura dell'affitto",
+  "polizza cassa malati",
+  "buste paga"
+ ],
+ "recipient": "Omar Al-Khatib",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

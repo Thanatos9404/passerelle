@@ -1,0 +1,197 @@
+{
+ "id": "tax_reminder_de_1",
+ "letter_type": "tax_reminder",
+ "lang": "de",
+ "instance": 1,
+ "title": "Mahnung Steuererklärung — Gemeinde Hohenbühl",
+ "authority": "Gemeinde Hohenbühl",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rosenweg 48",
+   "normalized": "Rosenweg 48",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     29,
+     40
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "5677 Hohenbühl",
+   "normalized": "5677 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     41,
+     55
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "061 777 30 59",
+   "normalized": "+41617773059",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     61,
+     74
+    ],
+    [
+     863,
+     876
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "steueramt@hohenbuehl.ch",
+   "normalized": "steueramt@hohenbuehl.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     75,
+     98
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 6",
+   "normalized": "Schulhausstrasse 6",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     120,
+     138
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3876 Hohenbühl",
+   "normalized": "3876 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     139,
+     153
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "14.10.2026",
+   "normalized": "2026-10-14",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     166,
+     176
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "4.479.953.62",
+   "normalized": "4.479.953.62",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     192,
+     204
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13. November 2026",
+   "normalized": "2026-11-13",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     495,
+     512
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1’000.00",
+   "normalized": "1000.00",
+   "role": null,
+   "critical": true,
+   "slot": "fine",
+   "spans": [
+    [
+     714,
+     726
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 50.00",
+   "normalized": "50.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     793,
+     802
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-14",
+  "deadline": "2026-11-13",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "1000.00",
+   "50.00"
+  ],
+  "references": [
+   "4.479.953.62"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41617773059",
+  "email": "steueramt@hohenbuehl.ch"
+ },
+ "action_required": "Steuererklärung mit Belegen einreichen",
+ "consequence": "Ermessenseinschätzung und Ordnungsbusse",
+ "documents": [
+  "Steuererklärung",
+  "Belege"
+ ],
+ "recipient": "Fatima Haidari",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

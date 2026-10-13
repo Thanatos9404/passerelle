@@ -1,0 +1,230 @@
+{
+ "id": "school_enrolment_it_1",
+ "letter_type": "school_enrolment",
+ "lang": "it",
+ "instance": 1,
+ "title": "Iscrizione scuola dell'infanzia — Istituto scolastico di Montelago",
+ "authority": "Istituto scolastico di Montelago",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Piazza Grande 20",
+   "normalized": "Piazza Grande 20",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     54,
+     70
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6671 Montelago",
+   "normalized": "6671 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     71,
+     85
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 578 36 20",
+   "normalized": "+41915783620",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     91,
+     107
+    ],
+    [
+     1040,
+     1056
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montelago.ch",
+   "normalized": "info@montelago.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     108,
+     125
+    ],
+    [
+     1059,
+     1076
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 1",
+   "normalized": "Via Cantonale 1",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     152,
+     167
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6750 Montelago",
+   "normalized": "6750 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     168,
+     182
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "20.10.2026",
+   "normalized": "2026-10-20",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     195,
+     205
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SCH-2026-4411",
+   "normalized": "SCH-2026-4411",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     220,
+     233
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13.10.2022",
+   "normalized": "2022-10-13",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     364,
+     374
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.08.2027",
+   "normalized": "2027-08-16",
+   "role": "effective",
+   "critical": true,
+   "slot": "school_start",
+   "spans": [
+    [
+     467,
+     477
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2 dicembre 2026",
+   "normalized": "2026-12-02",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     526,
+     541
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "martedì 3 novembre 2026",
+   "normalized": "2026-11-03",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_date",
+   "spans": [
+    [
+     805,
+     828
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "19.30",
+   "normalized": "19:30",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_time",
+   "spans": [
+    [
+     834,
+     839
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-20",
+  "deadline": "2026-12-02",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-03",
+   "time": "19:30"
+  },
+  "amounts": [],
+  "references": [
+   "SCH-2026-4411"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41915783620",
+  "email": "info@montelago.ch"
+ },
+ "action_required": "Iscrivere il bambino alla scuola dell'infanzia",
+ "consequence": "La frequenza è obbligatoria",
+ "documents": [
+  "libretto di famiglia o atto di nascita",
+  "libretto delle vaccinazioni",
+  "permesso di dimora del bambino"
+ ],
+ "recipient": "Dmytro Shevchenko",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

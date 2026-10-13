@@ -1,0 +1,251 @@
+{
+ "id": "ahv_contributions_de_1",
+ "letter_type": "ahv_contributions",
+ "lang": "de",
+ "instance": 1,
+ "title": "AHV-Beiträge Nichterwerbstätige — Ausgleichskasse des Kantons Lindmatt",
+ "authority": "Ausgleichskasse des Kantons Lindmatt",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Seestrasse 39",
+   "normalized": "Seestrasse 39",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     65,
+     78
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "4239 Rüttiwil",
+   "normalized": "4239 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     79,
+     92
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "041/291 53 18",
+   "normalized": "+41412915318",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     98,
+     111
+    ],
+    [
+     1104,
+     1117
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@ruettiwil.ch",
+   "normalized": "info@ruettiwil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     112,
+     129
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 4",
+   "normalized": "Schulhausstrasse 4",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     148,
+     166
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8734 Rüttiwil",
+   "normalized": "8734 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     167,
+     180
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "14. Oktober 2026",
+   "normalized": "2026-10-14",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     192,
+     208
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.4562.4765.72",
+   "normalized": "756.4562.4765.72",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     219,
+     235
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "NE-913386",
+   "normalized": "NE-913386",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     253,
+     262
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 2'420.–",
+   "normalized": "2420.00",
+   "role": null,
+   "critical": true,
+   "slot": "annual",
+   "spans": [
+    [
+     531,
+     542
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 605.00",
+   "normalized": "605.00",
+   "role": null,
+   "critical": true,
+   "slot": "quarter",
+   "spans": [
+    [
+     637,
+     647
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "31. März 2027",
+   "normalized": "2027-03-31",
+   "role": "deadline",
+   "critical": true,
+   "slot": "due",
+   "spans": [
+    [
+     655,
+     668
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH65 5170 5245 6214 4860 8",
+   "normalized": "CH6551705245621448608",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     720,
+     746
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "91 96733 27291 22483 38271 92748",
+   "normalized": "91 96733 27291 22483 38271 92748",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     765,
+     797
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "notify_days",
+   "spans": [
+    [
+     1075,
+     1077
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-14",
+  "deadline": "2027-03-31",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "2420.00",
+   "605.00"
+  ],
+  "references": [
+   "NE-913386",
+   "91 96733 27291 22483 38271 92748"
+  ],
+  "iban": "CH6551705245621448608",
+  "ahv": "756.4562.4765.72",
+  "phone": "+41412915318",
+  "email": "info@ruettiwil.ch"
+ },
+ "action_required": "Erste Beitragsrate bezahlen",
+ "consequence": "Verzugszinsen, Betreibung, spätere Rentenkürzung",
+ "documents": [],
+ "recipient": "Lucía Gómez",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

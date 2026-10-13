@@ -1,0 +1,38 @@
+[project]
+name = "passerelle"
+version = "0.1.0"
+description = "Sovereign, air-gapped caseworker assistant that explains Swiss official letters in the client's language with Apertus."
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Stack Underflow (Yashvardhan Thanvi)" }]
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "httpx>=0.27",
+    "pydantic>=2.7",
+    "sacrebleu>=2.4",
+    "pypdf>=4.2",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+# Evaluation figures + report rendering (not needed at runtime).
+eval = ["matplotlib>=3.8", "markdown>=3.6"]
+
+[dependency-groups]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+
+[project.scripts]
+passerelle = "passerelle.cli:main"
+passerelle-mock-llm = "eval.mock_llm:main"
+
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/passerelle", "src/eval"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

@@ -1,0 +1,242 @@
+{
+ "id": "premium_reduction_de_0",
+ "letter_type": "premium_reduction",
+ "lang": "de",
+ "instance": 0,
+ "title": "Verfügung Prämienverbilligung — Sozialversicherungsanstalt Kanton Aarenfeld",
+ "authority": "Sozialversicherungsanstalt Kanton Aarenfeld",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Lindenstrasse 12",
+   "normalized": "Lindenstrasse 12",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     64,
+     80
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3831 Seewil",
+   "normalized": "3831 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     81,
+     92
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 71 901 19 75",
+   "normalized": "+41719011975",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     101,
+     117
+    ],
+    [
+     967,
+     983
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@seewil.ch",
+   "normalized": "info@seewil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     118,
+     132
+    ],
+    [
+     985,
+     999
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rosenweg 2",
+   "normalized": "Rosenweg 2",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     152,
+     162
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "7065 Seewil",
+   "normalized": "7065 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     163,
+     174
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "05.10.2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     184,
+     194
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "2113215",
+   "normalized": "2113215",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     216,
+     223
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.5993.6310.73",
+   "normalized": "756.5993.6310.73",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     233,
+     249
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "01.01.2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     431,
+     441
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 85.00",
+   "normalized": "85.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_month",
+   "spans": [
+    [
+     467,
+     476
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.11.2026",
+   "normalized": "2026-11-09",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     657,
+     667
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1. März 2027",
+   "normalized": "2027-03-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     840,
+     852
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     907,
+     909
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-11-09",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "85.00"
+  ],
+  "references": [
+   "2113215"
+  ],
+  "iban": null,
+  "ahv": "756.5993.6310.73",
+  "phone": "+41719011975",
+  "email": "info@seewil.ch"
+ },
+ "action_required": "Steuerveranlagung und Mietvertrag einreichen",
+ "consequence": "Prämienverbilligung wird eingestellt",
+ "documents": [
+  "Steuerveranlagung",
+  "Mietvertrag"
+ ],
+ "recipient": "Yonas Tesfay",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

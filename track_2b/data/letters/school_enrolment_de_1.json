@@ -1,0 +1,230 @@
+{
+ "id": "school_enrolment_de_1",
+ "letter_type": "school_enrolment",
+ "lang": "de",
+ "instance": 1,
+ "title": "Anmeldung Kindergarten — Schule Birkental",
+ "authority": "Schule Birkental",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 28",
+   "normalized": "Schulhausstrasse 28",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     33,
+     52
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8488 Birkental",
+   "normalized": "8488 Birkental",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     53,
+     67
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 44 218 13 64",
+   "normalized": "+41442181364",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     73,
+     89
+    ],
+    [
+     957,
+     973
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@birkental.ch",
+   "normalized": "info@birkental.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     90,
+     107
+    ],
+    [
+     979,
+     996
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Sonnenrain 2",
+   "normalized": "Sonnenrain 2",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     127,
+     139
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8851 Birkental",
+   "normalized": "8851 Birkental",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     140,
+     154
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "5. Oktober 2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     167,
+     182
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SCH-2026-6662",
+   "normalized": "SCH-2026-6662",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     194,
+     207
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "8. Dezember 2022",
+   "normalized": "2022-12-08",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     312,
+     328
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16. August 2027",
+   "normalized": "2027-08-16",
+   "role": "effective",
+   "critical": true,
+   "slot": "school_start",
+   "spans": [
+    [
+     401,
+     416
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "18. November 2026",
+   "normalized": "2026-11-18",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     449,
+     466
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "Dienstag, 3. November 2026",
+   "normalized": "2026-11-03",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_date",
+   "spans": [
+    [
+     721,
+     747
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "19.00 Uhr",
+   "normalized": "19:00",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_time",
+   "spans": [
+    [
+     751,
+     760
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-11-18",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-03",
+   "time": "19:00"
+  },
+  "amounts": [],
+  "references": [
+   "SCH-2026-6662"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41442181364",
+  "email": "info@birkental.ch"
+ },
+ "action_required": "Kind für den Kindergarten anmelden",
+ "consequence": "Kindergartenbesuch ist obligatorisch",
+ "documents": [
+  "Familienbüchlein oder Geburtsurkunde",
+  "Impfausweis",
+  "Aufenthaltsbewilligung des Kindes"
+ ],
+ "recipient": "Amina Ahmadi",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

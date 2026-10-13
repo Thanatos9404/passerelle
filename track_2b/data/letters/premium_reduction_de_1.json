@@ -1,0 +1,242 @@
+{
+ "id": "premium_reduction_de_1",
+ "letter_type": "premium_reduction",
+ "lang": "de",
+ "instance": 1,
+ "title": "Verfügung Prämienverbilligung — Sozialversicherungsanstalt Kanton Lindmatt",
+ "authority": "Sozialversicherungsanstalt Kanton Lindmatt",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Dorfplatz 45",
+   "normalized": "Dorfplatz 45",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     63,
+     75
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "9574 Rüttiwil",
+   "normalized": "9574 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     76,
+     89
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "041 673 84 26",
+   "normalized": "+41416738426",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     95,
+     108
+    ],
+    [
+     975,
+     988
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@ruettiwil.ch",
+   "normalized": "info@ruettiwil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     109,
+     126
+    ],
+    [
+     990,
+     1007
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 36",
+   "normalized": "Schulhausstrasse 36",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     148,
+     167
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8558 Rüttiwil",
+   "normalized": "8558 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     168,
+     181
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13.10.2026",
+   "normalized": "2026-10-13",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     193,
+     203
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "3803254",
+   "normalized": "3803254",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     225,
+     232
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.3117.2146.07",
+   "normalized": "756.3117.2146.07",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     242,
+     258
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.1.2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     440,
+     448
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 145.00",
+   "normalized": "145.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_month",
+   "spans": [
+    [
+     474,
+     484
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "17.11.2026",
+   "normalized": "2026-11-17",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     665,
+     675
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1. März 2027",
+   "normalized": "2027-03-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     848,
+     860
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     915,
+     917
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-13",
+  "deadline": "2026-11-17",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "145.00"
+  ],
+  "references": [
+   "3803254"
+  ],
+  "iban": null,
+  "ahv": "756.3117.2146.07",
+  "phone": "+41416738426",
+  "email": "info@ruettiwil.ch"
+ },
+ "action_required": "Steuerveranlagung und Mietvertrag einreichen",
+ "consequence": "Prämienverbilligung wird eingestellt",
+ "documents": [
+  "Steuerveranlagung",
+  "Mietvertrag"
+ ],
+ "recipient": "Fatima Haidari",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

@@ -1,0 +1,242 @@
+{
+ "id": "premium_reduction_fr_0",
+ "letter_type": "premium_reduction",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Décision subside d'assurance-maladie — Caisse cantonale de compensation Haute-Broye",
+ "authority": "Caisse cantonale de compensation Haute-Broye",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Avenue de la Gare 15",
+   "normalized": "Avenue de la Gare 15",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     74,
+     94
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2299 Bellecombe-sur-Lac",
+   "normalized": "2299 Bellecombe-sur-Lac",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     95,
+     118
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 26 615 75 78",
+   "normalized": "+41266157578",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     129,
+     145
+    ],
+    [
+     993,
+     1009
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@bellecombesurlac.ch",
+   "normalized": "info@bellecombesurlac.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     146,
+     170
+    ],
+    [
+     1011,
+     1035
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Route de la Forêt 34",
+   "normalized": "Route de la Forêt 34",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     189,
+     209
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1983 Bellecombe-sur-Lac",
+   "normalized": "1983 Bellecombe-sur-Lac",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     210,
+     233
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2 octobre 2026",
+   "normalized": "2026-10-02",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     258,
+     272
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "3378921",
+   "normalized": "3378921",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     288,
+     295
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.5941.2910.14",
+   "normalized": "756.5941.2910.14",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     305,
+     321
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.1.2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     477,
+     485
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 112.50",
+   "normalized": "112.50",
+   "role": null,
+   "critical": true,
+   "slot": "amount_month",
+   "spans": [
+    [
+     508,
+     518
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "9 novembre 2026",
+   "normalized": "2026-11-09",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     711,
+     726
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1er mars 2027",
+   "normalized": "2027-03-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     873,
+     886
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     960,
+     962
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-02",
+  "deadline": "2026-11-09",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "112.50"
+  ],
+  "references": [
+   "3378921"
+  ],
+  "iban": null,
+  "ahv": "756.5941.2910.14",
+  "phone": "+41266157578",
+  "email": "info@bellecombesurlac.ch"
+ },
+ "action_required": "Envoyer décision de taxation et bail",
+ "consequence": "Le subside est supprimé",
+ "documents": [
+  "décision de taxation",
+  "bail à loyer"
+ ],
+ "recipient": "Hawa Abdi",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "dev",
+ "explain_subset": false
+}

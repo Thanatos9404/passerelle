@@ -1,0 +1,255 @@
+{
+ "id": "permit_renewal_it_0",
+ "letter_type": "permit_renewal",
+ "lang": "it",
+ "instance": 0,
+ "title": "Rinnovo permesso di dimora B — Ufficio della migrazione del Cantone Ticino Alto",
+ "authority": "Ufficio della migrazione del Cantone Ticino Alto",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via al Lago 38",
+   "normalized": "Via al Lago 38",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     66,
+     80
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6817 Montelago",
+   "normalized": "6817 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     81,
+     95
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091/435 90 37",
+   "normalized": "+41914359037",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     101,
+     114
+    ],
+    [
+     1013,
+     1026
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montelago.ch",
+   "normalized": "info@montelago.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     115,
+     132
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 17",
+   "normalized": "Via Cantonale 17",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     160,
+     176
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6714 Montelago",
+   "normalized": "6714 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     177,
+     191
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.10.2026",
+   "normalized": "2026-10-01",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     204,
+     213
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "MIG-2026-868480",
+   "normalized": "MIG-2026-868480",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     227,
+     242
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "72334225.9",
+   "normalized": "72334225.9",
+   "role": null,
+   "critical": true,
+   "slot": "zemis",
+   "spans": [
+    [
+     253,
+     263
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "29 dicembre 2026",
+   "normalized": "2026-12-29",
+   "role": "effective",
+   "critical": true,
+   "slot": "expiry",
+   "spans": [
+    [
+     360,
+     376
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.11.2026",
+   "normalized": "2026-11-09",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     504,
+     514
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 95.–",
+   "normalized": "95.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     743,
+     751
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH78 1766 8454 4315 5347 1",
+   "normalized": "CH7817668454431553471",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     821,
+     847
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "08:00",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     1056,
+     1061
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11:30",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     1067,
+     1072
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-01",
+  "deadline": "2026-11-09",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "95.00"
+  ],
+  "references": [
+   "MIG-2026-868480",
+   "72334225.9"
+  ],
+  "iban": "CH7817668454431553471",
+  "ahv": null,
+  "phone": "+41914359037",
+  "email": "info@montelago.ch"
+ },
+ "action_required": "Chiedere il rinnovo con i documenti e pagare la tassa",
+ "consequence": "Soggiorno senza permesso, misure del diritto degli stranieri",
+ "documents": [
+  "passaporto",
+  "fotografia",
+  "contratto di lavoro o attestazione assistenza",
+  "contratto di locazione"
+ ],
+ "recipient": "Abdirahman Warsame",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "dev",
+ "explain_subset": false
+}

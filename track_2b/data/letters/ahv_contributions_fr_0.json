@@ -1,0 +1,251 @@
+{
+ "id": "ahv_contributions_fr_0",
+ "letter_type": "ahv_contributions",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Cotisations AVS sans activité lucrative — Caisse cantonale de compensation AVS Jura-Lac",
+ "authority": "Caisse cantonale de compensation AVS Jura-Lac",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Lac 25",
+   "normalized": "Rue du Lac 25",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     92,
+     105
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2415 Valdorée",
+   "normalized": "2415 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     106,
+     119
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "032 265 25 51",
+   "normalized": "+41322652551",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     125,
+     138
+    ],
+    [
+     1195,
+     1208
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@valdoree.ch",
+   "normalized": "info@valdoree.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     139,
+     155
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue du Lac 15",
+   "normalized": "Rue du Lac 15",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     180,
+     193
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1655 Valdorée",
+   "normalized": "1655 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     194,
+     207
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "15.10.2026",
+   "normalized": "2026-10-15",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     222,
+     232
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.9935.1316.90",
+   "normalized": "756.9935.1316.90",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     243,
+     259
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "NE-266088",
+   "normalized": "NE-266088",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     277,
+     286
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "2 420.00 CHF",
+   "normalized": "2420.00",
+   "role": null,
+   "critical": true,
+   "slot": "annual",
+   "spans": [
+    [
+     600,
+     612
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 605.–",
+   "normalized": "605.00",
+   "role": null,
+   "critical": true,
+   "slot": "quarter",
+   "spans": [
+    [
+     720,
+     729
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "31.3.2027",
+   "normalized": "2027-03-31",
+   "role": "deadline",
+   "critical": true,
+   "slot": "due",
+   "spans": [
+    [
+     743,
+     752
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH93 8401 0354 8001 6194 5",
+   "normalized": "CH9384010354800161945",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     814,
+     840
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "63 31487 90113 08956 65275 02627",
+   "normalized": "63 31487 90113 08956 65275 02627",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     864,
+     896
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "notify_days",
+   "spans": [
+    [
+     1162,
+     1164
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-15",
+  "deadline": "2027-03-31",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "2420.00",
+   "605.00"
+  ],
+  "references": [
+   "NE-266088",
+   "63 31487 90113 08956 65275 02627"
+  ],
+  "iban": "CH9384010354800161945",
+  "ahv": "756.9935.1316.90",
+  "phone": "+41322652551",
+  "email": "info@valdoree.ch"
+ },
+ "action_required": "Payer la première tranche de cotisations",
+ "consequence": "Intérêts moratoires, poursuite, réduction de rente",
+ "documents": [],
+ "recipient": "Mehmet Yilmaz",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "dev",
+ "explain_subset": false
+}

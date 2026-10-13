@@ -1,0 +1,242 @@
+{
+ "id": "premium_reduction_it_0",
+ "letter_type": "premium_reduction",
+ "lang": "it",
+ "instance": 0,
+ "title": "Decisione riduzione dei premi — Istituto delle assicurazioni sociali Verbano Nord",
+ "authority": "Istituto delle assicurazioni sociali Verbano Nord",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via Cantonale 33",
+   "normalized": "Via Cantonale 33",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     70,
+     86
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6576 Sorvigo",
+   "normalized": "6576 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     87,
+     99
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 711 30 26",
+   "normalized": "+41917113026",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     109,
+     125
+    ],
+    [
+     929,
+     945
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@sorvigo.ch",
+   "normalized": "info@sorvigo.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     126,
+     141
+    ],
+    [
+     947,
+     962
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via al Lago 37",
+   "normalized": "Via al Lago 37",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     162,
+     176
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6737 Sorvigo",
+   "normalized": "6737 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     177,
+     189
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "05.10.2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     200,
+     210
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "4889746",
+   "normalized": "4889746",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     227,
+     234
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.4886.8561.11",
+   "normalized": "756.4886.8561.11",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     243,
+     259
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "01.01.2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     425,
+     435
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 85.–",
+   "normalized": "85.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_month",
+   "spans": [
+    [
+     459,
+     467
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.11.2026",
+   "normalized": "2026-11-09",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     623,
+     633
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1° marzo 2027",
+   "normalized": "2027-03-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     816,
+     829
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     898,
+     900
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-11-09",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "85.00"
+  ],
+  "references": [
+   "4889746"
+  ],
+  "iban": null,
+  "ahv": "756.4886.8561.11",
+  "phone": "+41917113026",
+  "email": "info@sorvigo.ch"
+ },
+ "action_required": "Inviare notifica di tassazione e contratto di locazione",
+ "consequence": "La riduzione viene sospesa",
+ "documents": [
+  "notifica di tassazione",
+  "contratto di locazione"
+ ],
+ "recipient": "Ayşe Demir",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

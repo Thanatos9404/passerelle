@@ -1,0 +1,251 @@
+{
+ "id": "ahv_contributions_it_0",
+ "letter_type": "ahv_contributions",
+ "lang": "it",
+ "instance": 0,
+ "title": "Contributi AVS senza attività lucrativa — Cassa cantonale di compensazione AVS Ticino Alto",
+ "authority": "Cassa cantonale di compensazione AVS Ticino Alto",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via Cantonale 12",
+   "normalized": "Via Cantonale 12",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     93,
+     109
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6967 Valcastello",
+   "normalized": "6967 Valcastello",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     110,
+     126
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 494 59 93",
+   "normalized": "+41914945993",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     136,
+     152
+    ],
+    [
+     1183,
+     1199
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@valcastello.ch",
+   "normalized": "info@valcastello.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     153,
+     172
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via dei Mulini 22",
+   "normalized": "Via dei Mulini 22",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     200,
+     217
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6869 Valcastello",
+   "normalized": "6869 Valcastello",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     218,
+     234
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "12.10.2026",
+   "normalized": "2026-10-12",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     249,
+     259
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.8401.3352.11",
+   "normalized": "756.8401.3352.11",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     269,
+     285
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "NE-720936",
+   "normalized": "NE-720936",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     300,
+     309
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 530.–",
+   "normalized": "530.00",
+   "role": null,
+   "critical": true,
+   "slot": "annual",
+   "spans": [
+    [
+     611,
+     620
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 132.50",
+   "normalized": "132.50",
+   "role": null,
+   "critical": true,
+   "slot": "quarter",
+   "spans": [
+    [
+     715,
+     725
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "31.3.2027",
+   "normalized": "2027-03-31",
+   "role": "deadline",
+   "critical": true,
+   "slot": "due",
+   "spans": [
+    [
+     735,
+     744
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH63 6064 1053 4520 1788 2",
+   "normalized": "CH6360641053452017882",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     811,
+     837
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "65 97988 49819 35668 07877 79568",
+   "normalized": "65 97988 49819 35668 07877 79568",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     864,
+     896
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "trenta",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "notify_days",
+   "spans": [
+    [
+     1148,
+     1154
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-12",
+  "deadline": "2027-03-31",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "530.00",
+   "132.50"
+  ],
+  "references": [
+   "NE-720936",
+   "65 97988 49819 35668 07877 79568"
+  ],
+  "iban": "CH6360641053452017882",
+  "ahv": "756.8401.3352.11",
+  "phone": "+41914945993",
+  "email": "info@valcastello.ch"
+ },
+ "action_required": "Pagare la prima rata dei contributi",
+ "consequence": "Interessi di mora, esecuzione, riduzione della rendita",
+ "documents": [],
+ "recipient": "Abdirahman Warsame",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

@@ -1,0 +1,242 @@
+{
+ "id": "health_insurance_reminder_fr_0",
+ "letter_type": "health_insurance_reminder",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Caisse-maladie : 2e rappel — Caisse-maladie Alpenrose SA",
+ "authority": "Caisse-maladie Alpenrose SA",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Lac 21",
+   "normalized": "Rue du Lac 21",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     41,
+     54
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1493 Valdorée",
+   "normalized": "1493 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     55,
+     68
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "021 209 68 78",
+   "normalized": "+41212096878",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     79,
+     92
+    ],
+    [
+     762,
+     775
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@valdoree.ch",
+   "normalized": "info@valdoree.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     93,
+     109
+    ],
+    [
+     777,
+     793
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue du Lac 23",
+   "normalized": "Rue du Lac 23",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     132,
+     145
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1869 Valdorée",
+   "normalized": "1869 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     146,
+     159
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2 octobre 2026",
+   "normalized": "2026-10-02",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     174,
+     188
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "682.4458.9983",
+   "normalized": "682.4458.9983",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     204,
+     217
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "R-2026-278288",
+   "normalized": "R-2026-278288",
+   "role": null,
+   "critical": true,
+   "slot": "invoice",
+   "spans": [
+    [
+     231,
+     244
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 389.40",
+   "normalized": "389.40",
+   "role": null,
+   "critical": true,
+   "slot": "amount_open",
+   "spans": [
+    [
+     379,
+     389
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 30.–",
+   "normalized": "30.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     408,
+     416
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "419.40 CHF",
+   "normalized": "419.40",
+   "role": null,
+   "critical": true,
+   "slot": "total",
+   "spans": [
+    [
+     425,
+     435
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "20.10.2026",
+   "normalized": "2026-10-20",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     471,
+     481
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH89 8194 5279 9702 5488 5",
+   "normalized": "CH8981945279970254885",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     493,
+     519
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-02",
+  "deadline": "2026-10-20",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "389.40",
+   "30.00",
+   "419.40"
+  ],
+  "references": [
+   "682.4458.9983",
+   "R-2026-278288"
+  ],
+  "iban": "CH8981945279970254885",
+  "ahv": null,
+  "phone": "+41212096878",
+  "email": "info@valdoree.ch"
+ },
+ "action_required": "Payer le montant dû avec les frais",
+ "consequence": "Poursuite avec frais",
+ "documents": [],
+ "recipient": "Mariam Yousef",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

@@ -1,0 +1,267 @@
+{
+ "id": "rent_increase_de_0",
+ "letter_type": "rent_increase",
+ "lang": "de",
+ "instance": 0,
+ "title": "Mietzinserhöhung — Verwaltung Lindenhof Immobilien AG",
+ "authority": "Verwaltung Lindenhof Immobilien AG",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Dorfplatz 25",
+   "normalized": "Dorfplatz 25",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     51,
+     63
+    ],
+    [
+     137,
+     149
+    ],
+    [
+     226,
+     238
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6096 Hohenbühl",
+   "normalized": "6096 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     64,
+     78
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "044 465 38 53",
+   "normalized": "+41444653853",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     84,
+     97
+    ],
+    [
+     948,
+     961
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@hohenbuehl.ch",
+   "normalized": "info@hohenbuehl.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     98,
+     116
+    ],
+    [
+     963,
+     981
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "4854 Hohenbühl",
+   "normalized": "4854 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     150,
+     164
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "5. Oktober 2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     177,
+     192
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "8434.69.216",
+   "normalized": "8434.69.216",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     206,
+     217
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "01.01.2027",
+   "normalized": "2027-01-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     440,
+     450
+    ],
+    [
+     884,
+     894
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1’655.–",
+   "normalized": "1655.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_old",
+   "spans": [
+    [
+     479,
+     490
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1’703.00",
+   "normalized": "1703.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_new",
+   "spans": [
+    [
+     522,
+     534
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 260.–",
+   "normalized": "260.00",
+   "role": null,
+   "critical": true,
+   "slot": "extra_costs",
+   "spans": [
+    [
+     572,
+     581
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "contest_days",
+   "spans": [
+    [
+     734,
+     736
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rosenweg 9",
+   "normalized": "Rosenweg 9",
+   "role": null,
+   "critical": false,
+   "slot": "conc_street",
+   "spans": [
+    [
+     809,
+     819
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "9042 Seewil",
+   "normalized": "9042 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "conc_postal",
+   "spans": [
+    [
+     821,
+     832
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "Art. 270b OR",
+   "normalized": "Art. 270b OR",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     834,
+     846
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "1655.00",
+   "1703.00",
+   "260.00"
+  ],
+  "references": [
+   "8434.69.216"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41444653853",
+  "email": "info@hohenbuehl.ch"
+ },
+ "action_required": "Neuen Mietzins zahlen oder Erhöhung anfechten",
+ "consequence": "Neuer Mietzins wird verbindlich",
+ "documents": [],
+ "recipient": "Mehmet Yilmaz",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "dev",
+ "explain_subset": false
+}

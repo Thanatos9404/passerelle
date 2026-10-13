@@ -1,0 +1,250 @@
+{
+ "id": "fine_notice_de_0",
+ "letter_type": "fine_notice",
+ "lang": "de",
+ "instance": 0,
+ "title": "Ordnungsbusse — Stadtpolizei Rüttiwil",
+ "authority": "Stadtpolizei Rüttiwil",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Mattenweg 37",
+   "normalized": "Mattenweg 37",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     37,
+     49
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "5200 Rüttiwil",
+   "normalized": "5200 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     50,
+     63
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "044/807 48 28",
+   "normalized": "+41448074828",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     69,
+     82
+    ],
+    [
+     799,
+     812
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@ruettiwil.ch",
+   "normalized": "info@ruettiwil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     83,
+     100
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Kirchgasse 14",
+   "normalized": "Kirchgasse 14",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     121,
+     134
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8699 Rüttiwil",
+   "normalized": "8699 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     135,
+     148
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "7. Oktober 2026",
+   "normalized": "2026-10-07",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     160,
+     175
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "OB-2026-220211",
+   "normalized": "OB-2026-220211",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     188,
+     202
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "02.10.2026",
+   "normalized": "2026-10-02",
+   "role": "past",
+   "critical": false,
+   "slot": "offence_date",
+   "spans": [
+    [
+     249,
+     259
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "13.20 Uhr",
+   "normalized": "13:20",
+   "role": "other",
+   "critical": false,
+   "slot": "offence_time",
+   "spans": [
+    [
+     263,
+     272
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Sonnenrain 7",
+   "normalized": "Sonnenrain 7",
+   "role": null,
+   "critical": false,
+   "slot": "offence_street",
+   "spans": [
+    [
+     318,
+     330
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 120.–",
+   "normalized": "120.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount",
+   "spans": [
+    [
+     411,
+     420
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     458,
+     460
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH18 2495 7590 5416 7022 3",
+   "normalized": "CH1824957590541670223",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     515,
+     541
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "98 36407 06253 48218 56452 66335",
+   "normalized": "98 36407 06253 48218 56452 66335",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     552,
+     584
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-07",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "120.00"
+  ],
+  "references": [
+   "OB-2026-220211",
+   "98 36407 06253 48218 56452 66335"
+  ],
+  "iban": "CH1824957590541670223",
+  "ahv": null,
+  "phone": "+41448074828",
+  "email": "info@ruettiwil.ch"
+ },
+ "action_required": "Busse innert Frist bezahlen",
+ "consequence": "Ordentliches Strafverfahren mit Zusatzkosten",
+ "documents": [],
+ "recipient": "Mehmet Yilmaz",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

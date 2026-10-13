@@ -1,0 +1,255 @@
+{
+ "id": "permit_renewal_it_1",
+ "letter_type": "permit_renewal",
+ "lang": "it",
+ "instance": 1,
+ "title": "Rinnovo permesso di dimora B — Ufficio della migrazione del Cantone Verbano Nord",
+ "authority": "Ufficio della migrazione del Cantone Verbano Nord",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Viale Stazione 5",
+   "normalized": "Viale Stazione 5",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     67,
+     83
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6898 Riva Serena",
+   "normalized": "6898 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     84,
+     100
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091 695 66 33",
+   "normalized": "+41916956633",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     106,
+     119
+    ],
+    [
+     1016,
+     1029
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@rivaserena.ch",
+   "normalized": "info@rivaserena.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     120,
+     138
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via dei Mulini 6",
+   "normalized": "Via dei Mulini 6",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     163,
+     179
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6993 Riva Serena",
+   "normalized": "6993 Riva Serena",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     180,
+     196
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.10.2026",
+   "normalized": "2026-10-16",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     211,
+     221
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "MIG-2026-689243",
+   "normalized": "MIG-2026-689243",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     235,
+     250
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "92796924.3",
+   "normalized": "92796924.3",
+   "role": null,
+   "critical": true,
+   "slot": "zemis",
+   "spans": [
+    [
+     261,
+     271
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "20.12.2026",
+   "normalized": "2026-12-20",
+   "role": "effective",
+   "critical": true,
+   "slot": "expiry",
+   "spans": [
+    [
+     368,
+     378
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.11.2026",
+   "normalized": "2026-11-16",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     506,
+     516
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 120.–",
+   "normalized": "120.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     745,
+     754
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH71 6706 3233 1829 4522 8",
+   "normalized": "CH7167063233182945228",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     824,
+     850
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "08:00",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     1059,
+     1064
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11.30",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     1070,
+     1075
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-16",
+  "deadline": "2026-11-16",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "120.00"
+  ],
+  "references": [
+   "MIG-2026-689243",
+   "92796924.3"
+  ],
+  "iban": "CH7167063233182945228",
+  "ahv": null,
+  "phone": "+41916956633",
+  "email": "info@rivaserena.ch"
+ },
+ "action_required": "Chiedere il rinnovo con i documenti e pagare la tassa",
+ "consequence": "Soggiorno senza permesso, misure del diritto degli stranieri",
+ "documents": [
+  "passaporto",
+  "fotografia",
+  "contratto di lavoro o attestazione assistenza",
+  "contratto di locazione"
+ ],
+ "recipient": "Ricardo Pereira",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

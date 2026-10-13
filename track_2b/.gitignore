@@ -25,3 +25,12 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Passerelle local state
+var/
+models/
+src/web/out/
+.pytest_cache/
+.hypothesis/
+data/eval_runs/*.log
+serving/*.log

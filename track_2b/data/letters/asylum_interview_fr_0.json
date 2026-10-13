@@ -1,0 +1,212 @@
+{
+ "id": "asylum_interview_fr_0",
+ "letter_type": "asylum_interview",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Convocation audition motifs d'asile — Centre fédéral pour requérants d'asile Romandie",
+ "authority": "Centre fédéral pour requérants d'asile Romandie",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Chemin des Vignes 39",
+   "normalized": "Chemin des Vignes 39",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     66,
+     86
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1989 Courtelaine",
+   "normalized": "1989 Courtelaine",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     87,
+     103
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "032/422 20 72",
+   "normalized": "+41324222072",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     109,
+     122
+    ],
+    [
+     979,
+     992
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@courtelaine.ch",
+   "normalized": "info@courtelaine.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     123,
+     142
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Avenue de la Gare 3",
+   "normalized": "Avenue de la Gare 3",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     167,
+     186
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2603 Courtelaine",
+   "normalized": "2603 Courtelaine",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     187,
+     203
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "7 octobre 2026",
+   "normalized": "2026-10-07",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     221,
+     235
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "N 589 689",
+   "normalized": "N 589 689",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     250,
+     259
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "26.10.2026",
+   "normalized": "2026-10-26",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_date",
+   "spans": [
+    [
+     387,
+     397
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "09:00",
+   "normalized": "09:00",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_time",
+   "spans": [
+    [
+     406,
+     411
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue du Lac 31",
+   "normalized": "Rue du Lac 31",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_street",
+   "spans": [
+    [
+     468,
+     481
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1765 Courtelaine",
+   "normalized": "1765 Courtelaine",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_postal",
+   "spans": [
+    [
+     483,
+     499
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-07",
+  "deadline": null,
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-10-26",
+   "time": "09:00"
+  },
+  "amounts": [],
+  "references": [
+   "N 589 689"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41324222072",
+  "email": "info@courtelaine.ch"
+ },
+ "action_required": "Se présenter à l'audition avec les documents",
+ "consequence": "La demande d'asile peut être radiée",
+ "documents": [
+  "documents d'identité",
+  "moyens de preuve",
+  "convocation"
+ ],
+ "recipient": "Olena Kovalenko",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "dev",
+ "explain_subset": false
+}

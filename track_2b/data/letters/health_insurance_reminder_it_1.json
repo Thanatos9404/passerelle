@@ -1,0 +1,242 @@
+{
+ "id": "health_insurance_reminder_it_1",
+ "letter_type": "health_insurance_reminder",
+ "lang": "it",
+ "instance": 1,
+ "title": "Cassa malati: 2° richiamo — Cassa malati Monteverde SA",
+ "authority": "Cassa malati Monteverde SA",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Piazza Grande 35",
+   "normalized": "Piazza Grande 35",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     35,
+     51
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6790 Sorvigo",
+   "normalized": "6790 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     52,
+     64
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 742 27 65",
+   "normalized": "+41917422765",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     70,
+     86
+    ],
+    [
+     770,
+     786
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@sorvigo.ch",
+   "normalized": "info@sorvigo.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     87,
+     102
+    ],
+    [
+     788,
+     803
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Viale Stazione 46",
+   "normalized": "Viale Stazione 46",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     130,
+     147
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6860 Sorvigo",
+   "normalized": "6860 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     148,
+     160
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19 ottobre 2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     171,
+     186
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "606.2795.2879",
+   "normalized": "606.2795.2879",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     203,
+     216
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "R-2026-686361",
+   "normalized": "R-2026-686361",
+   "role": null,
+   "critical": true,
+   "slot": "invoice",
+   "spans": [
+    [
+     229,
+     242
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 798.–",
+   "normalized": "798.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_open",
+   "spans": [
+    [
+     410,
+     419
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 30.–",
+   "normalized": "30.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     439,
+     447
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 828.–",
+   "normalized": "828.00",
+   "role": null,
+   "critical": true,
+   "slot": "total",
+   "spans": [
+    [
+     456,
+     465
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "02.11.2026",
+   "normalized": "2026-11-02",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     510,
+     520
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH92 0736 1431 1251 0305 4",
+   "normalized": "CH9207361431125103054",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     531,
+     557
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": "2026-11-02",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "798.00",
+   "30.00",
+   "828.00"
+  ],
+  "references": [
+   "606.2795.2879",
+   "R-2026-686361"
+  ],
+  "iban": "CH9207361431125103054",
+  "ahv": null,
+  "phone": "+41917422765",
+  "email": "info@sorvigo.ch"
+ },
+ "action_required": "Pagare l'importo scoperto con le spese",
+ "consequence": "Esecuzione con spese",
+ "documents": [],
+ "recipient": "Selam Gebremedhin",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

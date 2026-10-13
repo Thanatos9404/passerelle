@@ -1,0 +1,20 @@
+# Ollama Modelfile for Apertus v1.5 8B (text) Q4_K_M GGUF.
+# The TEMPLATE reproduces the model's own Jinja chat template (tokenizer.chat_template
+# in the GGUF) for system + user/assistant turns with deliberation and tools disabled:
+#   <s><|system_start|>SYS<|system_end|><|developer_start|>Deliberation: disabled
+#   Tool Capabilities: disabled<|developer_end|><|user_start|>USER<|user_end|><|assistant_start|>
+# (BOS is added by the tokenizer because tokenizer.ggml.add_bos_token = true.)
+FROM ../models/apertus-v1.5-8b-text-q4_k_m.gguf
+
+TEMPLATE """{{- $sys := "" }}{{- range .Messages }}{{- if eq .Role "system" }}{{- $sys = .Content }}{{- end }}{{- end }}<|system_start|>{{ if $sys }}{{ $sys }}{{ else }}You are Apertus 1.5 Omni, a multimodal assistant developed by the Swiss AI Initiative. Extended from Apertus 1 via continued pretraining, you understand images and audio and respond in text.{{ end }}<|system_end|><|developer_start|>Deliberation: disabled
+Tool Capabilities: disabled<|developer_end|>{{- range .Messages }}{{- if eq .Role "user" }}<|user_start|>{{ .Content }}<|user_end|>{{- else if eq .Role "assistant" }}<|assistant_start|>{{ .Content }}<|assistant_end|>{{- end }}{{- end }}<|assistant_start|>"""
+
+PARAMETER stop "<|assistant_end|>"
+PARAMETER stop "<|user_start|>"
+PARAMETER stop "<|system_start|>"
+PARAMETER num_ctx 4096
+# All 33 layers on the GPU: fits a 6 GB RTX 4050 together with a q8_0 KV cache
+# (serve with OLLAMA_FLASH_ATTENTION=1 OLLAMA_KV_CACHE_TYPE=q8_0, see serve_ollama.sh).
+# Lower this (e.g. 26) on GPUs with less free VRAM.
+PARAMETER num_gpu 99
+PARAMETER temperature 0.2

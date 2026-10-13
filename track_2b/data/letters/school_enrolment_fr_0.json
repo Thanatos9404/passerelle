@@ -1,0 +1,230 @@
+{
+ "id": "school_enrolment_fr_0",
+ "letter_type": "school_enrolment",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Inscription école enfantine — Établissement scolaire de Bellecombe-sur-Lac",
+ "authority": "Établissement scolaire de Bellecombe-sur-Lac",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Place de l'Église 12",
+   "normalized": "Place de l'Église 12",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     69,
+     89
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1710 Bellecombe-sur-Lac",
+   "normalized": "1710 Bellecombe-sur-Lac",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     90,
+     113
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "032/491 34 61",
+   "normalized": "+41324913461",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     119,
+     132
+    ],
+    [
+     1050,
+     1063
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@bellecombesurlac.ch",
+   "normalized": "info@bellecombesurlac.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     133,
+     157
+    ],
+    [
+     1067,
+     1091
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue des Tilleuls 28",
+   "normalized": "Rue des Tilleuls 28",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     186,
+     205
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2156 Bellecombe-sur-Lac",
+   "normalized": "2156 Bellecombe-sur-Lac",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     206,
+     229
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.10.2026",
+   "normalized": "2026-10-09",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     254,
+     264
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SCH-2026-4343",
+   "normalized": "SCH-2026-4343",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     278,
+     291
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "8 mars 2022",
+   "normalized": "2022-03-08",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     389,
+     400
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.08.2027",
+   "normalized": "2027-08-16",
+   "role": "effective",
+   "critical": true,
+   "slot": "school_start",
+   "spans": [
+    [
+     483,
+     493
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13 novembre 2026",
+   "normalized": "2026-11-13",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     546,
+     562
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "28.10.2026",
+   "normalized": "2026-10-28",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_date",
+   "spans": [
+    [
+     878,
+     888
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "19h00",
+   "normalized": "19:00",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_time",
+   "spans": [
+    [
+     891,
+     896
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-09",
+  "deadline": "2026-11-13",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-10-28",
+   "time": "19:00"
+  },
+  "amounts": [],
+  "references": [
+   "SCH-2026-4343"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41324913461",
+  "email": "info@bellecombesurlac.ch"
+ },
+ "action_required": "Inscrire l'enfant à l'école enfantine",
+ "consequence": "La fréquentation est obligatoire",
+ "documents": [
+  "livret de famille ou acte de naissance",
+  "carnet de vaccination",
+  "titre de séjour de l'enfant"
+ ],
+ "recipient": "Dmytro Shevchenko",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "dev",
+ "explain_subset": false
+}

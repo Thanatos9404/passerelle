@@ -1,0 +1,255 @@
+{
+ "id": "permit_renewal_de_1",
+ "letter_type": "permit_renewal",
+ "lang": "de",
+ "instance": 1,
+ "title": "Verlängerung Aufenthaltsbewilligung B — Migrationsamt des Kantons Aarenfeld",
+ "authority": "Migrationsamt des Kantons Aarenfeld",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 9",
+   "normalized": "Schulhausstrasse 9",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     57,
+     75
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "4433 Seewil",
+   "normalized": "4433 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     76,
+     87
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "052 258 50 22",
+   "normalized": "+41522585022",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     93,
+     106
+    ],
+    [
+     1046,
+     1059
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@seewil.ch",
+   "normalized": "info@seewil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     107,
+     121
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Dorfplatz 35",
+   "normalized": "Dorfplatz 35",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     141,
+     153
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3382 Seewil",
+   "normalized": "3382 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     154,
+     165
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.10.2026",
+   "normalized": "2026-10-09",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     175,
+     185
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "MIG-2026-214394",
+   "normalized": "MIG-2026-214394",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     200,
+     215
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "78451033.9",
+   "normalized": "78451033.9",
+   "role": null,
+   "critical": true,
+   "slot": "zemis",
+   "spans": [
+    [
+     227,
+     237
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2.1.2027",
+   "normalized": "2027-01-02",
+   "role": "effective",
+   "critical": true,
+   "slot": "expiry",
+   "spans": [
+    [
+     349,
+     357
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.11.2026",
+   "normalized": "2026-11-16",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     503,
+     513
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 65.00",
+   "normalized": "65.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     734,
+     743
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH86 1134 0108 4374 7344 4",
+   "normalized": "CH8611340108437473444",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     820,
+     846
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "08.00 Uhr",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     1081,
+     1090
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11.30 Uhr",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     1095,
+     1104
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-09",
+  "deadline": "2026-11-16",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "65.00"
+  ],
+  "references": [
+   "MIG-2026-214394",
+   "78451033.9"
+  ],
+  "iban": "CH8611340108437473444",
+  "ahv": null,
+  "phone": "+41522585022",
+  "email": "info@seewil.ch"
+ },
+ "action_required": "Verlängerungsgesuch mit Unterlagen einreichen und Gebühr bezahlen",
+ "consequence": "Aufenthalt ohne gültige Bewilligung, ausländerrechtliche Massnahmen",
+ "documents": [
+  "Reisepass",
+  "Passfoto",
+  "Arbeitsvertrag oder Sozialhilfebestätigung",
+  "Mietvertrag"
+ ],
+ "recipient": "Amina Ahmadi",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

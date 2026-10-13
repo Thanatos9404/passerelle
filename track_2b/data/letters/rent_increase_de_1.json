@@ -1,0 +1,277 @@
+{
+ "id": "rent_increase_de_1",
+ "letter_type": "rent_increase",
+ "lang": "de",
+ "instance": 1,
+ "title": "Mietzinserhöhung — Verwaltung Lindenhof Immobilien AG",
+ "authority": "Verwaltung Lindenhof Immobilien AG",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Sonnenrain 25",
+   "normalized": "Sonnenrain 25",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     51,
+     64
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6656 Hohenbühl",
+   "normalized": "6656 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     65,
+     79
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "031 380 92 33",
+   "normalized": "+41313809233",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     85,
+     98
+    ],
+    [
+     958,
+     971
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@hohenbuehl.ch",
+   "normalized": "info@hohenbuehl.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     99,
+     117
+    ],
+    [
+     973,
+     991
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Mattenweg 42",
+   "normalized": "Mattenweg 42",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     135,
+     147
+    ],
+    [
+     224,
+     236
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "5049 Hohenbühl",
+   "normalized": "5049 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     148,
+     162
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "8. Oktober 2026",
+   "normalized": "2026-10-08",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     175,
+     190
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "2971.80.651",
+   "normalized": "2971.80.651",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     204,
+     215
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "01.04.2027",
+   "normalized": "2027-04-01",
+   "role": "effective",
+   "critical": true,
+   "slot": "effective",
+   "spans": [
+    [
+     436,
+     446
+    ],
+    [
+     893,
+     903
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 1'180.00",
+   "normalized": "1180.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_old",
+   "spans": [
+    [
+     475,
+     487
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 1'228.00",
+   "normalized": "1228.00",
+   "role": null,
+   "critical": true,
+   "slot": "rent_new",
+   "spans": [
+    [
+     519,
+     531
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 220.00",
+   "normalized": "220.00",
+   "role": null,
+   "critical": true,
+   "slot": "extra_costs",
+   "spans": [
+    [
+     569,
+     579
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "contest_days",
+   "spans": [
+    [
+     732,
+     734
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 25",
+   "normalized": "Schulhausstrasse 25",
+   "role": null,
+   "critical": false,
+   "slot": "conc_street",
+   "spans": [
+    [
+     807,
+     826
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8382 Rüttiwil",
+   "normalized": "8382 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "conc_postal",
+   "spans": [
+    [
+     828,
+     841
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "Art. 270b OR",
+   "normalized": "Art. 270b OR",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     843,
+     855
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-08",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "1180.00",
+   "1228.00",
+   "220.00"
+  ],
+  "references": [
+   "2971.80.651"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41313809233",
+  "email": "info@hohenbuehl.ch"
+ },
+ "action_required": "Neuen Mietzins zahlen oder Erhöhung anfechten",
+ "consequence": "Neuer Mietzins wird verbindlich",
+ "documents": [],
+ "recipient": "Ayşe Demir",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

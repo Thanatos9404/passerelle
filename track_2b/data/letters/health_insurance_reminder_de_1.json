@@ -1,0 +1,242 @@
+{
+ "id": "health_insurance_reminder_de_1",
+ "letter_type": "health_insurance_reminder",
+ "lang": "de",
+ "instance": 1,
+ "title": "Krankenkasse: 2. Mahnung — Krankenversicherung Sana Montis AG",
+ "authority": "Krankenversicherung Sana Montis AG",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 24",
+   "normalized": "Schulhausstrasse 24",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     43,
+     62
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "7159 Seewil",
+   "normalized": "7159 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     63,
+     74
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 71 286 85 17",
+   "normalized": "+41712868517",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     83,
+     99
+    ],
+    [
+     795,
+     811
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@seewil.ch",
+   "normalized": "info@seewil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     100,
+     114
+    ],
+    [
+     813,
+     827
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Lindenstrasse 8",
+   "normalized": "Lindenstrasse 8",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     135,
+     150
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8611 Seewil",
+   "normalized": "8611 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     151,
+     162
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.10.2026",
+   "normalized": "2026-10-01",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     172,
+     181
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "196.4540.5354",
+   "normalized": "196.4540.5354",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     201,
+     214
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "R-2026-871702",
+   "normalized": "R-2026-871702",
+   "role": null,
+   "critical": true,
+   "slot": "invoice",
+   "spans": [
+    [
+     230,
+     243
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 655.20",
+   "normalized": "655.20",
+   "role": null,
+   "critical": true,
+   "slot": "amount_open",
+   "spans": [
+    [
+     416,
+     426
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 20.–",
+   "normalized": "20.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     439,
+     447
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 675.20",
+   "normalized": "675.20",
+   "role": null,
+   "critical": true,
+   "slot": "total",
+   "spans": [
+    [
+     455,
+     465
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19. Oktober 2026",
+   "normalized": "2026-10-19",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     502,
+     518
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH85 4172 7892 0897 2058 5",
+   "normalized": "CH8541727892089720585",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     528,
+     554
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-01",
+  "deadline": "2026-10-19",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "655.20",
+   "20.00",
+   "675.20"
+  ],
+  "references": [
+   "196.4540.5354",
+   "R-2026-871702"
+  ],
+  "iban": "CH8541727892089720585",
+  "ahv": null,
+  "phone": "+41712868517",
+  "email": "info@seewil.ch"
+ },
+ "action_required": "Offenen Betrag mit Mahngebühr bezahlen",
+ "consequence": "Betreibung mit Kosten",
+ "documents": [],
+ "recipient": "Nirmala Rajan",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

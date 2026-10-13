@@ -1,0 +1,227 @@
+{
+ "id": "family_allowance_fr_1",
+ "letter_type": "family_allowance",
+ "lang": "fr",
+ "instance": 1,
+ "title": "Allocations familiales : documents manquants — Caisse d'allocations familiales Haute-Broye",
+ "authority": "Caisse d'allocations familiales Haute-Broye",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Lac 26",
+   "normalized": "Rue du Lac 26",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     67,
+     80
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2510 Montverlin",
+   "normalized": "2510 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     81,
+     96
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "032 297 36 88",
+   "normalized": "+41322973688",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     107,
+     120
+    ],
+    [
+     877,
+     890
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montverlin.ch",
+   "normalized": "info@montverlin.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     121,
+     139
+    ],
+    [
+     906,
+     924
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Route de la Forêt 7",
+   "normalized": "Route de la Forêt 7",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     166,
+     185
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1925 Montverlin",
+   "normalized": "1925 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     186,
+     201
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "08.10.2026",
+   "normalized": "2026-10-08",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     218,
+     228
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "FAK-448332",
+   "normalized": "FAK-448332",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     243,
+     253
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.12.2010",
+   "normalized": "2010-12-01",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     354,
+     363
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.12.2026",
+   "normalized": "2026-12-01",
+   "role": "other",
+   "critical": true,
+   "slot": "age16_date",
+   "spans": [
+    [
+     380,
+     389
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 268.–",
+   "normalized": "268.00",
+   "role": null,
+   "critical": true,
+   "slot": "allowance",
+   "spans": [
+    [
+     458,
+     467
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "28.10.2026",
+   "normalized": "2026-10-28",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     565,
+     575
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1er janvier 2027",
+   "normalized": "2027-01-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     773,
+     789
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-08",
+  "deadline": "2026-10-28",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "268.00"
+  ],
+  "references": [
+   "FAK-448332"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41322973688",
+  "email": "info@montverlin.ch"
+ },
+ "action_required": "Envoyer une attestation de formation",
+ "consequence": "Le versement des allocations est suspendu",
+ "documents": [
+  "attestation de formation"
+ ],
+ "recipient": "Ricardo Pereira",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

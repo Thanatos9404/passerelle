@@ -1,0 +1,272 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/*
+ * Passerelle design tokens — reverse-engineered from obliqq.framer.ai (measured from its live CSS):
+ * Open Runde; ink #1A1615, body #453F3D, muted #757170, warm brown #614A44;
+ * warm beige #F0EAE5 / #F4F1EE / #F9F8F8; frosted white panels; black pill CTAs;
+ * radii 100 / 32 / 24 / 16; soft warm shadow rgba(97,74,68,.1) 0 4px 50px.
+ */
+
+@custom-variant data-open (&:where([data-state="open"]));
+@custom-variant data-closed (&:where([data-state="closed"]));
+@custom-variant data-active (&:where([data-state="active"]));
+
+@theme inline {
+  --font-sans: var(--font-runde), "Open Runde", ui-sans-serif, system-ui, "Segoe UI", "Noto Sans Ethiopic",
+    "Noto Sans Tamil", "Noto Naskh Arabic", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", "Consolas", monospace;
+
+  --color-ink: #1a1615;
+  --color-body: #453f3d;
+  --color-muted: #757170;
+  --color-faint: #a29d9b;
+  --color-brown: #614a44;
+  --color-sand: #f0eae5;
+  --color-sand-2: #f4f1ee;
+  --color-paper: #f9f8f8;
+  --color-white: #ffffff;
+  --color-line: rgba(26, 22, 21, 0.08);
+  --color-line-strong: rgba(26, 22, 21, 0.14);
+  --color-sky: #9cc1e7;
+  --color-sky-2: #b7d5f1;
+  --color-sky-ink: #3c6796;
+  --color-dune: #eddfd0;
+  --color-dune-2: #f4e6da;
+
+  /* status — muted, used only on small chips and the gate */
+  --color-ok: #008a25;
+  --color-ok-soft: #e5f4e8;
+  --color-warn: #a86a0c;
+  --color-warn-soft: #fbefd9;
+  --color-stop: #b8402c;
+  --color-stop-soft: #f9e4df;
+
+  /* fact families (letter highlights + chips) */
+  --color-f-date: #3c6796;
+  --color-f-date-soft: #e2edf8;
+  --color-f-amount: #9a5b10;
+  --color-f-amount-soft: #f8ead3;
+  --color-f-id: #614a44;
+  --color-f-id-soft: #efe6e1;
+  --color-f-contact: #4f5f4a;
+  --color-f-contact-soft: #e7ede2;
+
+  --radius-pill: 100px;
+  --radius-4xl: 32px;
+  --radius-3xl: 24px;
+  --radius-2xl: 16px;
+  --radius-xl: 12px;
+
+  --shadow-soft: 0 4px 50px 0 rgba(97, 74, 68, 0.1);
+  --shadow-card: 0 1px 2px rgba(97, 74, 68, 0.06), 0 8px 30px -6px rgba(97, 74, 68, 0.12);
+  --shadow-float: 0 1px 1px rgba(26, 22, 21, 0.04), 0 12px 24px -8px rgba(97, 74, 68, 0.16),
+    0 40px 90px -20px rgba(97, 74, 68, 0.28);
+  --shadow-pill: 0 1px 1px rgba(26, 22, 21, 0.1), 0 6px 16px -6px rgba(26, 22, 21, 0.45);
+
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    color: var(--color-ink);
+    background: var(--color-paper);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "cv11", "ss01";
+  }
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-body);
+    min-height: 100dvh;
+  }
+  ::selection {
+    background: rgba(156, 193, 231, 0.55);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  /* Script-specific faces (self-hosted Noto subsets). Arabic-script text gets more air. */
+  :lang(ar),
+  :lang(fa),
+  :lang(prs),
+  :lang(ps),
+  :lang(ur),
+  :lang(ckb) {
+    font-family: "Noto Naskh Arabic", var(--font-sans);
+    line-height: 1.85;
+  }
+  :lang(ti),
+  :lang(am) {
+    font-family: "Noto Sans Ethiopic", var(--font-sans);
+    line-height: 1.75;
+  }
+  :lang(ta) {
+    font-family: "Noto Sans Tamil", var(--font-sans);
+    line-height: 1.75;
+  }
+}
+
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 1120px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 640px) {
+    .container-x {
+      padding-inline: 24px;
+    }
+  }
+
+  /* Type — measured: H1 76/600/-0.03em, H2 52/600/-0.03em, eyebrow 15/600 uppercase #614A44 */
+  .t-display {
+    font-weight: 600;
+    font-size: clamp(40px, 6.2vw, 80px);
+    line-height: 1.04;
+    letter-spacing: -0.035em;
+    color: var(--color-ink);
+    text-wrap: balance;
+  }
+  .t-h2 {
+    font-weight: 600;
+    font-size: clamp(32px, 4.3vw, 52px);
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+    color: var(--color-ink);
+    text-wrap: balance;
+  }
+  .t-h3 {
+    font-weight: 600;
+    font-size: clamp(20px, 2vw, 26px);
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+    color: var(--color-ink);
+  }
+  .t-eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brown);
+  }
+  @media (min-width: 768px) {
+    .t-eyebrow {
+      font-size: 15px;
+    }
+  }
+  .t-lead {
+    font-size: clamp(16px, 1.45vw, 20px);
+    line-height: 1.55;
+    color: var(--color-body);
+    text-wrap: pretty;
+  }
+  .t-num {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+
+  /* Surfaces */
+  .frost {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px) saturate(140%);
+    -webkit-backdrop-filter: blur(12px) saturate(140%);
+  }
+  .card {
+    background: var(--color-white);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-3xl);
+    box-shadow: var(--shadow-card);
+  }
+  .sky-fade {
+    background: linear-gradient(180deg, #b7d5f1 15%, #f4e6da 100%);
+  }
+  .fade-x {
+    mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent);
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(26, 22, 21, 0.18) transparent;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Marquee for the "built on" row */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 38s linear infinite;
+}
+@keyframes caret {
+  50% {
+    opacity: 0;
+  }
+}
+.animate-caret {
+  animation: caret 1s steps(1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Print: only the export sheet is printed */
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm 14mm;
+  }
+  html,
+  body {
+    background: #fff !important;
+  }
+  body[data-printing] [data-app-root] {
+    display: none !important;
+  }
+  [data-print-root] {
+    display: block !important;
+  }
+}
+[data-print-root] {
+  display: none;
+}

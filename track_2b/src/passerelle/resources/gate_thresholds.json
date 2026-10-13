@@ -1,0 +1,218 @@
+{
+ "calibrated": true,
+ "calibrated_at": "2026-10-13T22:03:52",
+ "split": "dev",
+ "n_items": 122,
+ "judge_available": true,
+ "metric": "chrF(back-translation, source plain explanation), placeholders stripped, sacrebleu sentence_chrf",
+ "method": "pooled F2 (review) / F1 (ready) on dev; per-language review threshold if >=3 bad and >=3 good dev items; floors from dev bad rate",
+ "default": {
+  "ready": 55.0,
+  "review": 51.5,
+  "floor": "ready"
+ },
+ "pooled_fit": {
+  "review_f2": 0.8984,
+  "ready_f1": 0.7805
+ },
+ "languages": {
+  "ar": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 10,
+    "bad_rate": 0.0,
+    "chrf_mean": 76.42,
+    "chrf_median": 77.58,
+    "judge_mean": 4.08,
+    "fact_error_rate": 0.167
+   }
+  },
+  "en": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 11,
+    "bad_rate": 0.0,
+    "chrf_mean": 81.98,
+    "chrf_median": 82.29,
+    "judge_mean": 4.58,
+    "fact_error_rate": 0.083
+   }
+  },
+  "es": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 11,
+    "bad_rate": 0.0,
+    "chrf_mean": 78.31,
+    "chrf_median": 77.11,
+    "judge_mean": 4.42,
+    "fact_error_rate": 0.083
+   }
+  },
+  "prs": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 10,
+    "bad_rate": 0.0,
+    "chrf_mean": 67.0,
+    "chrf_median": 66.8,
+    "judge_mean": 4.08,
+    "fact_error_rate": 0.083
+   }
+  },
+  "pt": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 2,
+    "bad": 0,
+    "good": 1,
+    "bad_rate": 0.0,
+    "chrf_mean": 86.53,
+    "chrf_median": 87.47,
+    "judge_mean": 4.5,
+    "fact_error_rate": 0.5
+   }
+  },
+  "so": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "interpreter",
+   "tier": "interpreter_recommended",
+   "floor_reason": "On the dev split 8/12 outputs for Somali were broken or judged wrong in meaning.",
+   "dev_stats": {
+    "n": 12,
+    "bad": 8,
+    "good": 1,
+    "bad_rate": 0.667,
+    "chrf_mean": 41.1,
+    "chrf_median": 44.25,
+    "judge_mean": 2.42,
+    "fact_error_rate": 0.167
+   }
+  },
+  "sq": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 11,
+    "bad_rate": 0.0,
+    "chrf_mean": 80.06,
+    "chrf_median": 80.8,
+    "judge_mean": 4.33,
+    "fact_error_rate": 0.083
+   }
+  },
+  "ta": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "language",
+   "floor": "review",
+   "tier": "review_required",
+   "floor_reason": "On the dev split 3/12 outputs for Tamil were broken or judged wrong in meaning.",
+   "dev_stats": {
+    "n": 12,
+    "bad": 3,
+    "good": 6,
+    "bad_rate": 0.25,
+    "chrf_mean": 45.31,
+    "chrf_median": 45.65,
+    "judge_mean": 3.33,
+    "fact_error_rate": 0.167
+   }
+  },
+  "ti": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "interpreter",
+   "tier": "interpreter_recommended",
+   "floor_reason": "On the dev split 11/12 outputs for Tigrinya were broken or judged wrong in meaning.",
+   "dev_stats": {
+    "n": 12,
+    "bad": 11,
+    "good": 0,
+    "bad_rate": 0.917,
+    "chrf_mean": 14.81,
+    "chrf_median": 0.0,
+    "judge_mean": 1.5,
+    "fact_error_rate": 0.917
+   }
+  },
+  "tr": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 1,
+    "good": 7,
+    "bad_rate": 0.083,
+    "chrf_mean": 64.1,
+    "chrf_median": 74.2,
+    "judge_mean": 4.08,
+    "fact_error_rate": 0.417
+   }
+  },
+  "uk": {
+   "ready": 55.0,
+   "review": 51.5,
+   "fit": "pooled",
+   "floor": "ready",
+   "tier": "reliable",
+   "floor_reason": null,
+   "dev_stats": {
+    "n": 12,
+    "bad": 0,
+    "good": 10,
+    "bad_rate": 0.0,
+    "chrf_mean": 75.31,
+    "chrf_median": 76.44,
+    "judge_mean": 4.33,
+    "fact_error_rate": 0.167
+   }
+  }
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "id": "fine_notice_it_1",
+ "letter_type": "fine_notice",
+ "lang": "it",
+ "instance": 1,
+ "title": "Multa disciplinare — Polizia comunale di Sorvigo",
+ "authority": "Polizia comunale di Sorvigo",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via Cantonale 20",
+   "normalized": "Via Cantonale 20",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     47,
+     63
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6555 Sorvigo",
+   "normalized": "6555 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     64,
+     76
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091 286 13 54",
+   "normalized": "+41912861354",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     82,
+     95
+    ],
+    [
+     799,
+     812
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@sorvigo.ch",
+   "normalized": "info@sorvigo.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     96,
+     111
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via dei Mulini 15",
+   "normalized": "Via dei Mulini 15",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     139,
+     156
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6618 Sorvigo",
+   "normalized": "6618 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     157,
+     169
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "12 ottobre 2026",
+   "normalized": "2026-10-12",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     180,
+     195
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "OB-2026-603448",
+   "normalized": "OB-2026-603448",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     207,
+     221
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "28.09.2026",
+   "normalized": "2026-09-28",
+   "role": "past",
+   "critical": false,
+   "slot": "offence_date",
+   "spans": [
+    [
+     275,
+     285
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11.05",
+   "normalized": "11:05",
+   "role": "other",
+   "critical": false,
+   "slot": "offence_time",
+   "spans": [
+    [
+     291,
+     296
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 6",
+   "normalized": "Via Cantonale 6",
+   "role": null,
+   "critical": false,
+   "slot": "offence_street",
+   "spans": [
+    [
+     351,
+     366
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 120.–",
+   "normalized": "120.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount",
+   "spans": [
+    [
+     435,
+     444
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     484,
+     486
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH05 0798 7296 0645 8036 8",
+   "normalized": "CH0507987296064580368",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     527,
+     553
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "12 92353 67103 77361 35008 05097",
+   "normalized": "12 92353 67103 77361 35008 05097",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     567,
+     599
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-12",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "120.00"
+  ],
+  "references": [
+   "OB-2026-603448",
+   "12 92353 67103 77361 35008 05097"
+  ],
+  "iban": "CH0507987296064580368",
+  "ahv": null,
+  "phone": "+41912861354",
+  "email": "info@sorvigo.ch"
+ },
+ "action_required": "Pagare la multa entro il termine",
+ "consequence": "Procedimento penale ordinario con costi",
+ "documents": [],
+ "recipient": "Selam Gebremedhin",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

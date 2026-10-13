@@ -1,0 +1,12 @@
+# CI-only override: adds a mock OpenAI-compatible LLM so `docker compose up` can be smoke-tested
+# without a GPU or an external endpoint.
+#   LLM_BASE_URL=http://mockllm:8099/v1 docker compose -f docker-compose.yml -f ci/compose.mock.yml up -d --build
+services:
+  mockllm:
+    image: passerelle:latest
+    command: ["passerelle-mock-llm", "--host", "0.0.0.0", "--port", "8099"]
+    networks: [default]
+  app:
+    depends_on:
+      mockllm:
+        condition: service_started

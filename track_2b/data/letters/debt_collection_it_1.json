@@ -1,0 +1,274 @@
+{
+ "id": "debt_collection_it_1",
+ "letter_type": "debt_collection",
+ "lang": "it",
+ "instance": 1,
+ "title": "Precetto esecutivo — Ufficio di esecuzione di Montelago",
+ "authority": "Ufficio di esecuzione di Montelago",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via San Rocco 26",
+   "normalized": "Via San Rocco 26",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     46,
+     62
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6508 Montelago",
+   "normalized": "6508 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     63,
+     77
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 91 280 74 83",
+   "normalized": "+41912807483",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     83,
+     99
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montelago.ch",
+   "normalized": "info@montelago.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     100,
+     117
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via delle Scuole 7",
+   "normalized": "Via delle Scuole 7",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     140,
+     158
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6974 Montelago",
+   "normalized": "6974 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     159,
+     173
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "12.10.2026",
+   "normalized": "2026-10-12",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     186,
+     196
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "26-669102",
+   "normalized": "26-669102",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     231,
+     240
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 480.–",
+   "normalized": "480.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_main",
+   "spans": [
+    [
+     335,
+     344
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1.6.2026",
+   "normalized": "2026-06-01",
+   "role": "past",
+   "critical": false,
+   "slot": "interest_from",
+   "spans": [
+    [
+     371,
+     379
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 73.30",
+   "normalized": "73.30",
+   "role": null,
+   "critical": true,
+   "slot": "costs",
+   "spans": [
+    [
+     397,
+     406
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "20",
+   "normalized": "P20D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     534,
+     536
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH95 4507 2368 8476 4556 5",
+   "normalized": "CH9545072368847645565",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     580,
+     606
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "10",
+   "normalized": "P10D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     713,
+     715
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "art. 74 LEF",
+   "normalized": "art. 74 LEF",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     765,
+     776
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "8.00",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     939,
+     943
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11.30",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     949,
+     954
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-12",
+  "deadline": null,
+  "deadline_relative": "P20D",
+  "appointment": null,
+  "amounts": [
+   "480.00",
+   "73.30"
+  ],
+  "references": [
+   "26-669102"
+  ],
+  "iban": "CH9545072368847645565",
+  "ahv": null,
+  "phone": "+41912807483",
+  "email": "info@montelago.ch"
+ },
+ "action_required": "Pagare o fare opposizione entro il termine",
+ "consequence": "Continuazione dell'esecuzione (pignoramento)",
+ "documents": [],
+ "recipient": "Mehmet Yilmaz",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

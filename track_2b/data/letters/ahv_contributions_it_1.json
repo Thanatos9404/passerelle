@@ -1,0 +1,251 @@
+{
+ "id": "ahv_contributions_it_1",
+ "letter_type": "ahv_contributions",
+ "lang": "it",
+ "instance": 1,
+ "title": "Contributi AVS senza attività lucrativa — Cassa cantonale di compensazione AVS Ticino Alto",
+ "authority": "Cassa cantonale di compensazione AVS Ticino Alto",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Via San Rocco 34",
+   "normalized": "Via San Rocco 34",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     93,
+     109
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6805 Montelago",
+   "normalized": "6805 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     110,
+     124
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091 508 71 59",
+   "normalized": "+41915087159",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     134,
+     147
+    ],
+    [
+     1164,
+     1177
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montelago.ch",
+   "normalized": "info@montelago.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     148,
+     165
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via Cantonale 28",
+   "normalized": "Via Cantonale 28",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     187,
+     203
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6732 Montelago",
+   "normalized": "6732 Montelago",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     204,
+     218
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13.10.2026",
+   "normalized": "2026-10-13",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     231,
+     241
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.0532.1707.54",
+   "normalized": "756.0532.1707.54",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     251,
+     267
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "NE-706728",
+   "normalized": "NE-706728",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     282,
+     291
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 2'420.00",
+   "normalized": "2420.00",
+   "role": null,
+   "critical": true,
+   "slot": "annual",
+   "spans": [
+    [
+     592,
+     604
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 605.00",
+   "normalized": "605.00",
+   "role": null,
+   "critical": true,
+   "slot": "quarter",
+   "spans": [
+    [
+     699,
+     709
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "31.03.2027",
+   "normalized": "2027-03-31",
+   "role": "deadline",
+   "critical": true,
+   "slot": "due",
+   "spans": [
+    [
+     719,
+     729
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH68 2027 5201 1584 9795 9",
+   "normalized": "CH6820275201158497959",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     796,
+     822
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "71 17086 41265 93885 13931 59430",
+   "normalized": "71 17086 41265 93885 13931 59430",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     849,
+     881
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "notify_days",
+   "spans": [
+    [
+     1133,
+     1135
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-13",
+  "deadline": "2027-03-31",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "2420.00",
+   "605.00"
+  ],
+  "references": [
+   "NE-706728",
+   "71 17086 41265 93885 13931 59430"
+  ],
+  "iban": "CH6820275201158497959",
+  "ahv": "756.0532.1707.54",
+  "phone": "+41915087159",
+  "email": "info@montelago.ch"
+ },
+ "action_required": "Pagare la prima rata dei contributi",
+ "consequence": "Interessi di mora, esecuzione, riduzione della rendita",
+ "documents": [],
+ "recipient": "Zahra Noori",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

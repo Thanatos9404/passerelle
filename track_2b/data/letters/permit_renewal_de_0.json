@@ -1,0 +1,255 @@
+{
+ "id": "permit_renewal_de_0",
+ "letter_type": "permit_renewal",
+ "lang": "de",
+ "instance": 0,
+ "title": "Verlängerung Aufenthaltsbewilligung B — Migrationsamt des Kantons Aarenfeld",
+ "authority": "Migrationsamt des Kantons Aarenfeld",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 4",
+   "normalized": "Schulhausstrasse 4",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     57,
+     75
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "9327 Seewil",
+   "normalized": "9327 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     76,
+     87
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "061 430 63 45",
+   "normalized": "+41614306345",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     93,
+     106
+    ],
+    [
+     1058,
+     1071
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@seewil.ch",
+   "normalized": "info@seewil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     107,
+     121
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Seestrasse 6",
+   "normalized": "Seestrasse 6",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     140,
+     152
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "8958 Seewil",
+   "normalized": "8958 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     153,
+     164
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "06.10.2026",
+   "normalized": "2026-10-06",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     174,
+     184
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "MIG-2026-330959",
+   "normalized": "MIG-2026-330959",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     199,
+     214
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "17125371.9",
+   "normalized": "17125371.9",
+   "role": null,
+   "critical": true,
+   "slot": "zemis",
+   "spans": [
+    [
+     226,
+     236
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "14. Dezember 2026",
+   "normalized": "2026-12-14",
+   "role": "effective",
+   "critical": true,
+   "slot": "expiry",
+   "spans": [
+    [
+     347,
+     364
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "9. November 2026",
+   "normalized": "2026-11-09",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     510,
+     526
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 95.–",
+   "normalized": "95.00",
+   "role": null,
+   "critical": true,
+   "slot": "fee",
+   "spans": [
+    [
+     747,
+     755
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH83 4823 3387 6199 0093 2",
+   "normalized": "CH8348233387619900932",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     832,
+     858
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "8.00 Uhr",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     1093,
+     1101
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11.30 Uhr",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     1106,
+     1115
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-06",
+  "deadline": "2026-11-09",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "95.00"
+  ],
+  "references": [
+   "MIG-2026-330959",
+   "17125371.9"
+  ],
+  "iban": "CH8348233387619900932",
+  "ahv": null,
+  "phone": "+41614306345",
+  "email": "info@seewil.ch"
+ },
+ "action_required": "Verlängerungsgesuch mit Unterlagen einreichen und Gebühr bezahlen",
+ "consequence": "Aufenthalt ohne gültige Bewilligung, ausländerrechtliche Massnahmen",
+ "documents": [
+  "Reisepass",
+  "Passfoto",
+  "Arbeitsvertrag oder Sozialhilfebestätigung",
+  "Mietvertrag"
+ ],
+ "recipient": "Lucía Gómez",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

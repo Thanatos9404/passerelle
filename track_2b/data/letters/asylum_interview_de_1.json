@@ -1,0 +1,212 @@
+{
+ "id": "asylum_interview_de_1",
+ "letter_type": "asylum_interview",
+ "lang": "de",
+ "instance": 1,
+ "title": "Vorladung Anhörung Asylgründe — Bundesasylzentrum Nordwest",
+ "authority": "Bundesasylzentrum Nordwest",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Lindenstrasse 48",
+   "normalized": "Lindenstrasse 48",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     41,
+     57
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "7178 Seewil",
+   "normalized": "7178 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     58,
+     69
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "041 852 10 26",
+   "normalized": "+41418521026",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     78,
+     91
+    ],
+    [
+     887,
+     900
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@seewil.ch",
+   "normalized": "info@seewil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     92,
+     106
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Seestrasse 4",
+   "normalized": "Seestrasse 4",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     125,
+     137
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3417 Seewil",
+   "normalized": "3417 Seewil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     138,
+     149
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19. Oktober 2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     159,
+     175
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "N 744 764",
+   "normalized": "N 744 764",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     187,
+     196
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2.11.2026",
+   "normalized": "2026-11-02",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_date",
+   "spans": [
+    [
+     331,
+     340
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "8.30 Uhr",
+   "normalized": "08:30",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_time",
+   "spans": [
+    [
+     347,
+     355
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Seestrasse 42",
+   "normalized": "Seestrasse 42",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_street",
+   "spans": [
+    [
+     389,
+     402
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "4010 Seewil",
+   "normalized": "4010 Seewil",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_postal",
+   "spans": [
+    [
+     404,
+     415
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": null,
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-02",
+   "time": "08:30"
+  },
+  "amounts": [],
+  "references": [
+   "N 744 764"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41418521026",
+  "email": "info@seewil.ch"
+ },
+ "action_required": "Zur Anhörung erscheinen mit Dokumenten",
+ "consequence": "Asylgesuch kann abgeschrieben werden",
+ "documents": [
+  "Identitätsdokumente",
+  "Beweismittel",
+  "Vorladung"
+ ],
+ "recipient": "Zahra Noori",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

@@ -1,0 +1,227 @@
+{
+ "id": "family_allowance_fr_0",
+ "letter_type": "family_allowance",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Allocations familiales : documents manquants — Caisse d'allocations familiales Jura-Lac",
+ "authority": "Caisse d'allocations familiales Jura-Lac",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Lac 14",
+   "normalized": "Rue du Lac 14",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     64,
+     77
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1312 Valdorée",
+   "normalized": "1312 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     78,
+     91
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "024 961 90 80",
+   "normalized": "+41249619080",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     102,
+     115
+    ],
+    [
+     864,
+     877
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@valdoree.ch",
+   "normalized": "info@valdoree.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     116,
+     132
+    ],
+    [
+     893,
+     909
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue des Tilleuls 32",
+   "normalized": "Rue des Tilleuls 32",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     155,
+     174
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1845 Valdorée",
+   "normalized": "1845 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     175,
+     188
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "06.10.2026",
+   "normalized": "2026-10-06",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     203,
+     213
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "FAK-919166",
+   "normalized": "FAK-919166",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     228,
+     238
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "21 novembre 2010",
+   "normalized": "2010-11-21",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     335,
+     351
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "21.11.2026",
+   "normalized": "2026-11-21",
+   "role": "other",
+   "critical": true,
+   "slot": "age16_date",
+   "spans": [
+    [
+     368,
+     378
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 325.–",
+   "normalized": "325.00",
+   "role": null,
+   "critical": true,
+   "slot": "allowance",
+   "spans": [
+    [
+     447,
+     456
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "4 novembre 2026",
+   "normalized": "2026-11-04",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     554,
+     569
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2.12.2026",
+   "normalized": "2026-12-02",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     767,
+     776
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-06",
+  "deadline": "2026-11-04",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "325.00"
+  ],
+  "references": [
+   "FAK-919166"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41249619080",
+  "email": "info@valdoree.ch"
+ },
+ "action_required": "Envoyer une attestation de formation",
+ "consequence": "Le versement des allocations est suspendu",
+ "documents": [
+  "attestation de formation"
+ ],
+ "recipient": "Mariam Yousef",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

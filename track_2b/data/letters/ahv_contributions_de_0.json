@@ -1,0 +1,251 @@
+{
+ "id": "ahv_contributions_de_0",
+ "letter_type": "ahv_contributions",
+ "lang": "de",
+ "instance": 0,
+ "title": "AHV-Beiträge Nichterwerbstätige — Ausgleichskasse des Kantons Lindmatt",
+ "authority": "Ausgleichskasse des Kantons Lindmatt",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Bahnhofstrasse 30",
+   "normalized": "Bahnhofstrasse 30",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     65,
+     82
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3861 Hohenbühl",
+   "normalized": "3861 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     83,
+     97
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+41 31 898 48 77",
+   "normalized": "+41318984877",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     106,
+     122
+    ],
+    [
+     1113,
+     1129
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@hohenbuehl.ch",
+   "normalized": "info@hohenbuehl.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     123,
+     141
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Dorfplatz 19",
+   "normalized": "Dorfplatz 19",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     163,
+     175
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3088 Hohenbühl",
+   "normalized": "3088 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     176,
+     190
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19. Oktober 2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     203,
+     219
+    ]
+   ]
+  },
+  {
+   "type": "ahv",
+   "value": "756.5588.4992.24",
+   "normalized": "756.5588.4992.24",
+   "role": null,
+   "critical": true,
+   "slot": "ahv",
+   "spans": [
+    [
+     230,
+     246
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "NE-139048",
+   "normalized": "NE-139048",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     264,
+     273
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 1’650.00",
+   "normalized": "1650.00",
+   "role": null,
+   "critical": true,
+   "slot": "annual",
+   "spans": [
+    [
+     543,
+     555
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 412.50",
+   "normalized": "412.50",
+   "role": null,
+   "critical": true,
+   "slot": "quarter",
+   "spans": [
+    [
+     650,
+     660
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "31.3.2027",
+   "normalized": "2027-03-31",
+   "role": "deadline",
+   "critical": true,
+   "slot": "due",
+   "spans": [
+    [
+     668,
+     677
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH55 1912 4199 5183 7197 6",
+   "normalized": "CH5519124199518371976",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     729,
+     755
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "48 30588 17701 02699 51059 90203",
+   "normalized": "48 30588 17701 02699 51059 90203",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     774,
+     806
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "30",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "notify_days",
+   "spans": [
+    [
+     1084,
+     1086
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": "2027-03-31",
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "1650.00",
+   "412.50"
+  ],
+  "references": [
+   "NE-139048",
+   "48 30588 17701 02699 51059 90203"
+  ],
+  "iban": "CH5519124199518371976",
+  "ahv": "756.5588.4992.24",
+  "phone": "+41318984877",
+  "email": "info@hohenbuehl.ch"
+ },
+ "action_required": "Erste Beitragsrate bezahlen",
+ "consequence": "Verzugszinsen, Betreibung, spätere Rentenkürzung",
+ "documents": [],
+ "recipient": "Tesfalem Haile",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

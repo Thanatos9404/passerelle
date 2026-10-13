@@ -1,0 +1,227 @@
+{
+ "id": "family_allowance_de_0",
+ "letter_type": "family_allowance",
+ "lang": "de",
+ "instance": 0,
+ "title": "Familienzulagen: fehlende Unterlagen — Familienausgleichskasse Kanton Lindmatt",
+ "authority": "Familienausgleichskasse Kanton Lindmatt",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 48",
+   "normalized": "Schulhausstrasse 48",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     56,
+     75
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "5560 Rüttiwil",
+   "normalized": "5560 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     76,
+     89
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "071 310 72 43",
+   "normalized": "+41713107243",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     98,
+     111
+    ],
+    [
+     856,
+     869
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@ruettiwil.ch",
+   "normalized": "info@ruettiwil.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     112,
+     129
+    ],
+    [
+     875,
+     892
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Dorfplatz 37",
+   "normalized": "Dorfplatz 37",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     151,
+     163
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "3271 Rüttiwil",
+   "normalized": "3271 Rüttiwil",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     164,
+     177
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "7. Oktober 2026",
+   "normalized": "2026-10-07",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     189,
+     204
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "FAK-596284",
+   "normalized": "FAK-596284",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     219,
+     229
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "09.12.2010",
+   "normalized": "2010-12-09",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     337,
+     347
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "9. Dezember 2026",
+   "normalized": "2026-12-09",
+   "role": "other",
+   "critical": true,
+   "slot": "age16_date",
+   "spans": [
+    [
+     357,
+     373
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 290.00",
+   "normalized": "290.00",
+   "role": null,
+   "critical": true,
+   "slot": "allowance",
+   "spans": [
+    [
+     467,
+     477
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "2. November 2026",
+   "normalized": "2026-11-02",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     566,
+     582
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "1. Januar 2027",
+   "normalized": "2027-01-01",
+   "role": "other",
+   "critical": true,
+   "slot": "stop_date",
+   "spans": [
+    [
+     754,
+     768
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-07",
+  "deadline": "2026-11-02",
+  "deadline_relative": null,
+  "appointment": null,
+  "amounts": [
+   "290.00"
+  ],
+  "references": [
+   "FAK-596284"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41713107243",
+  "email": "info@ruettiwil.ch"
+ },
+ "action_required": "Ausbildungsbestätigung einsenden",
+ "consequence": "Zahlung der Familienzulagen wird eingestellt",
+ "documents": [
+  "Ausbildungsbestätigung"
+ ],
+ "recipient": "Arben Krasniqi",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

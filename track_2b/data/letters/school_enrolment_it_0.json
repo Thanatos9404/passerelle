@@ -1,0 +1,230 @@
+{
+ "id": "school_enrolment_it_0",
+ "letter_type": "school_enrolment",
+ "lang": "it",
+ "instance": 0,
+ "title": "Iscrizione scuola dell'infanzia — Istituto scolastico di Sorvigo",
+ "authority": "Istituto scolastico di Sorvigo",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Piazza Grande 3",
+   "normalized": "Piazza Grande 3",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     52,
+     67
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6621 Sorvigo",
+   "normalized": "6621 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     68,
+     80
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "091/689 62 69",
+   "normalized": "+41916896269",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     90,
+     103
+    ],
+    [
+     1012,
+     1025
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@sorvigo.ch",
+   "normalized": "info@sorvigo.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     104,
+     119
+    ],
+    [
+     1028,
+     1043
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Via dei Mulini 24",
+   "normalized": "Via dei Mulini 24",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     145,
+     162
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "6570 Sorvigo",
+   "normalized": "6570 Sorvigo",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     163,
+     175
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "13.10.2026",
+   "normalized": "2026-10-13",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     186,
+     196
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SCH-2026-4496",
+   "normalized": "SCH-2026-4496",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     211,
+     224
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "20.04.2022",
+   "normalized": "2022-04-20",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     354,
+     364
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.8.2027",
+   "normalized": "2027-08-16",
+   "role": "effective",
+   "critical": true,
+   "slot": "school_start",
+   "spans": [
+    [
+     457,
+     466
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16.11.2026",
+   "normalized": "2026-11-16",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     515,
+     525
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "11.11.2026",
+   "normalized": "2026-11-11",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_date",
+   "spans": [
+    [
+     789,
+     799
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "19.30",
+   "normalized": "19:30",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_time",
+   "spans": [
+    [
+     805,
+     810
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-13",
+  "deadline": "2026-11-16",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-11",
+   "time": "19:30"
+  },
+  "amounts": [],
+  "references": [
+   "SCH-2026-4496"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41916896269",
+  "email": "info@sorvigo.ch"
+ },
+ "action_required": "Iscrivere il bambino alla scuola dell'infanzia",
+ "consequence": "La frequenza è obbligatoria",
+ "documents": [
+  "libretto di famiglia o atto di nascita",
+  "libretto delle vaccinazioni",
+  "permesso di dimora del bambino"
+ ],
+ "recipient": "Leonora Berisha",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

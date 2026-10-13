@@ -1,0 +1,250 @@
+{
+ "id": "fine_notice_fr_1",
+ "letter_type": "fine_notice",
+ "lang": "fr",
+ "instance": 1,
+ "title": "Amende d'ordre — Police municipale de Bellecombe-sur-Lac",
+ "authority": "Police municipale de Bellecombe-sur-Lac",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Avenue de la Gare 20",
+   "normalized": "Avenue de la Gare 20",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     56,
+     76
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1372 Bellecombe-sur-Lac",
+   "normalized": "1372 Bellecombe-sur-Lac",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     77,
+     100
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "024 705 80 63",
+   "normalized": "+41247058063",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     106,
+     119
+    ],
+    [
+     857,
+     870
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@bellecombesurlac.ch",
+   "normalized": "info@bellecombesurlac.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     120,
+     144
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue du Lac 46",
+   "normalized": "Rue du Lac 46",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     167,
+     180
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2134 Bellecombe-sur-Lac",
+   "normalized": "2134 Bellecombe-sur-Lac",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     181,
+     204
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "7 octobre 2026",
+   "normalized": "2026-10-07",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     229,
+     243
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "OB-2026-470792",
+   "normalized": "OB-2026-470792",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     257,
+     271
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "27 septembre 2026",
+   "normalized": "2026-09-27",
+   "role": "past",
+   "critical": false,
+   "slot": "offence_date",
+   "spans": [
+    [
+     301,
+     318
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "18 h 05",
+   "normalized": "18:05",
+   "role": "other",
+   "critical": false,
+   "slot": "offence_time",
+   "spans": [
+    [
+     321,
+     328
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Place de l'Église 24",
+   "normalized": "Place de l'Église 24",
+   "role": null,
+   "critical": false,
+   "slot": "offence_street",
+   "spans": [
+    [
+     416,
+     436
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 120.00",
+   "normalized": "120.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount",
+   "spans": [
+    [
+     484,
+     494
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "trente",
+   "normalized": "P30D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     529,
+     535
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH86 4894 1964 6778 6398 5",
+   "normalized": "CH8648941964677863985",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     584,
+     610
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "58 60251 33167 62112 98039 51386",
+   "normalized": "58 60251 33167 62112 98039 51386",
+   "role": null,
+   "critical": true,
+   "slot": "qr_ref",
+   "spans": [
+    [
+     622,
+     654
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-07",
+  "deadline": null,
+  "deadline_relative": "P30D",
+  "appointment": null,
+  "amounts": [
+   "120.00"
+  ],
+  "references": [
+   "OB-2026-470792",
+   "58 60251 33167 62112 98039 51386"
+  ],
+  "iban": "CH8648941964677863985",
+  "ahv": null,
+  "phone": "+41247058063",
+  "email": "info@bellecombesurlac.ch"
+ },
+ "action_required": "Payer l'amende dans le délai",
+ "consequence": "Procédure pénale ordinaire avec frais",
+ "documents": [],
+ "recipient": "Mariam Yousef",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

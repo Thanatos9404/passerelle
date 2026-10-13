@@ -1,0 +1,230 @@
+{
+ "id": "school_enrolment_fr_1",
+ "letter_type": "school_enrolment",
+ "lang": "fr",
+ "instance": 1,
+ "title": "Inscription école enfantine — Établissement scolaire de Montverlin",
+ "authority": "Établissement scolaire de Montverlin",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Place de l'Église 36",
+   "normalized": "Place de l'Église 36",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     61,
+     81
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1078 Montverlin",
+   "normalized": "1078 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     82,
+     97
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "024 791 48 58",
+   "normalized": "+41247914858",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     108,
+     121
+    ],
+    [
+     1024,
+     1037
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@montverlin.ch",
+   "normalized": "info@montverlin.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     122,
+     140
+    ],
+    [
+     1041,
+     1059
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Place de l'Église 20",
+   "normalized": "Place de l'Église 20",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     166,
+     186
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2361 Montverlin",
+   "normalized": "2361 Montverlin",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     187,
+     202
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "05.10.2026",
+   "normalized": "2026-10-05",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     219,
+     229
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SCH-2026-9945",
+   "normalized": "SCH-2026-9945",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     243,
+     256
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "26 juillet 2022",
+   "normalized": "2022-07-26",
+   "role": "past",
+   "critical": false,
+   "slot": "child_birth",
+   "spans": [
+    [
+     354,
+     369
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "16 août 2027",
+   "normalized": "2027-08-16",
+   "role": "effective",
+   "critical": true,
+   "slot": "school_start",
+   "spans": [
+    [
+     452,
+     464
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "17.11.2026",
+   "normalized": "2026-11-17",
+   "role": "deadline",
+   "critical": true,
+   "slot": "deadline",
+   "spans": [
+    [
+     517,
+     527
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "mercredi 28 octobre 2026",
+   "normalized": "2026-10-28",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_date",
+   "spans": [
+    [
+     843,
+     867
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "19h30",
+   "normalized": "19:30",
+   "role": "appointment",
+   "critical": true,
+   "slot": "info_time",
+   "spans": [
+    [
+     870,
+     875
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-05",
+  "deadline": "2026-11-17",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-10-28",
+   "time": "19:30"
+  },
+  "amounts": [],
+  "references": [
+   "SCH-2026-9945"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41247914858",
+  "email": "info@montverlin.ch"
+ },
+ "action_required": "Inscrire l'enfant à l'école enfantine",
+ "consequence": "La fréquentation est obligatoire",
+ "documents": [
+  "livret de famille ou acte de naissance",
+  "carnet de vaccination",
+  "titre de séjour de l'enfant"
+ ],
+ "recipient": "Tesfalem Haile",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}

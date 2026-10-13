@@ -25,3 +25,10 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Web build artefacts and QA screenshots (reference shots are third-party; never publish)
+track_2b/src/web/node_modules/
+track_2b/src/web/.next/
+track_2b/src/web/out/
+track_2b/src/web/screenshots/
+track_2b/models/

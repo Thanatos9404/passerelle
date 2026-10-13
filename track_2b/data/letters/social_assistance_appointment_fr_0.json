@@ -1,0 +1,213 @@
+{
+ "id": "social_assistance_appointment_fr_0",
+ "letter_type": "social_assistance_appointment",
+ "lang": "fr",
+ "instance": 0,
+ "title": "Convocation service social — Commune de Valdorée",
+ "authority": "Commune de Valdorée",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Rue du Lac 24",
+   "normalized": "Rue du Lac 24",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     35,
+     48
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "2422 Valdorée",
+   "normalized": "2422 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     49,
+     62
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "024 664 65 81",
+   "normalized": "+41246646581",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     68,
+     81
+    ],
+    [
+     724,
+     737
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "sozialdienst@valdoree.ch",
+   "normalized": "sozialdienst@valdoree.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     82,
+     106
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Rue du Marché 10",
+   "normalized": "Rue du Marché 10",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     131,
+     147
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "1659 Valdorée",
+   "normalized": "1659 Valdorée",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     148,
+     161
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "12 octobre 2026",
+   "normalized": "2026-10-12",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     176,
+     191
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "SOZ-2026-54767",
+   "normalized": "SOZ-2026-54767",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     206,
+     220
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "05.11.2026",
+   "normalized": "2026-11-05",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_date",
+   "spans": [
+    [
+     349,
+     359
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "15:00",
+   "normalized": "15:00",
+   "role": "appointment",
+   "critical": true,
+   "slot": "appt_time",
+   "spans": [
+    [
+     368,
+     373
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Avenue de la Gare 44",
+   "normalized": "Avenue de la Gare 44",
+   "role": "appointment_place",
+   "critical": true,
+   "slot": "appt_street",
+   "spans": [
+    [
+     409,
+     429
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "3 novembre 2026",
+   "normalized": "2026-11-03",
+   "role": "deadline",
+   "critical": true,
+   "slot": "cancel_deadline",
+   "spans": [
+    [
+     705,
+     720
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-12",
+  "deadline": "2026-11-03",
+  "deadline_relative": null,
+  "appointment": {
+   "date": "2026-11-05",
+   "time": "15:00"
+  },
+  "amounts": [],
+  "references": [
+   "SOZ-2026-54767"
+  ],
+  "iban": null,
+  "ahv": null,
+  "phone": "+41246646581",
+  "email": "sozialdienst@valdoree.ch"
+ },
+ "action_required": "Se présenter à l'entretien avec les documents",
+ "consequence": "L'aide financière peut être réduite",
+ "documents": [
+  "relevés bancaires",
+  "facture de loyer",
+  "police d'assurance-maladie",
+  "fiches de salaire"
+ ],
+ "recipient": "Mehmet Yilmaz",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": true
+}

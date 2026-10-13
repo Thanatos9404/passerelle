@@ -1,0 +1,242 @@
+{"id": "ahv_contributions_fr_0", "target": "ti", "score": 2, "issues": "Incorrect recipient, purpose, and payment details", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'poursuivre' vs 'avancer'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'honoraires' instead of 'cotisations' and 'pénalité' instead of 'intérêts'.", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Que devez-vous faire?' and 'À quelle échéance?'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "ta", "score": 2, "issues": "Incorrect information about payment deadline and consequences of not acting", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'de quoi s'agit-il' and 'Qu'est-ce que c'est'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "so", "score": 3, "issues": "Incorrect verb tenses and minor wording differences, e.g. 'effectuez' instead of 'payer'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "sq", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "pt", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_fr_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "ti", "score": 2, "issues": "Incorrect information about the purpose of the meeting, consequences of not attending, and the role of the interpreter and lawyer.", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "ar", "score": 4, "issues": "Minor wording differences between 'convocation' and 'invitation', and 'supprimée' vs 'annulée'.", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in the opening sentence and the phrase 'your demand may be cancelled'.", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "uk", "score": 5, "issues": "Minor wording differences in the last sentence.", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "ta", "score": 4, "issues": "Minor wording differences in 'convocation' vs 'invitation', 'demande d'asile' vs 'demandeurs d'asile'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "tr", "score": 4, "issues": "Minor wording differences between 'convocation' and 'invitation', and 'supprimée' vs 'annulée'.", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "so", "score": 2, "issues": "Incorrect information about the purpose and consequences of not attending the interview", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'faire' and 'présenter'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "en", "score": 4, "issues": "Minor wording difference in the consequence of not attending the interview.", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "pt", "score": 4, "issues": "Minor wording differences in 'faire' and 'présenter'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_fr_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'convocation' vs 'rendez-vous' and 'supprimée' vs 'annulée'", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "debt_collection_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences, e.g., 'cosa è questa cosa' instead of 'di che cosa si tratta'", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "prs", "score": 5, "issues": "Minor wording differences in verb tenses and sentence structure.", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "uk", "score": 4, "issues": "Minor wording differences in the first sentence and 'messaggio' instead of 'avviso'", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "ta", "score": 4, "issues": "Minor wording differences in 'Cosa devo fare?' and 'Quando?' sections", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "tr", "score": 2, "issues": "Text B lacks essential information about the payment deadline, consequences of non-payment, and contact details.", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "so", "score": 2, "issues": "Incorrect terminology, unclear meaning, and missing information", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "sq", "score": 5, "issues": "Minor wording differences in 'di che cosa si tratta' and 'di cosa si tratta'.", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "debt_collection_it_0", "target": "es", "score": 5, "issues": "Minor wording differences in 'si oppone' vs 'non si oppone'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "ti", "score": 2, "issues": "Important information about the attestato and payment suspension is missing or wrong.", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'stipendi' vs 'assegni familiari' and 'certificazione' vs 'attestato'.", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "prs", "score": 4, "issues": "Minor wording differences in the translation of 'Di che cosa si tratta?' and 'درباره چیست?'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Che cosa deve fare?' and 'Entro quando?'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "ta", "score": 4, "issues": "Minor wording differences, incorrect recipient name (Sara vs. Sahakudumbattu)", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'cosa si tratta' and 'documento di istruzione'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "so", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'cos'è'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "sq", "score": 5, "issues": "Minor wording differences in 'di che cosa si tratta' and 'di cosa si tratta'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "en", "score": 5, "issues": "Minor wording differences in phrases, but same meaning and information conveyed.", "judge_model": "llama3:latest"}
+{"id": "family_allowance_it_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'che cosa si tratta' and 'cosa deve fare'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "ti", "score": 2, "issues": "Incorrect information about the purpose of the fine, unclear instructions on what to do", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "ar", "score": 5, "issues": "Minor wording differences in 'Cosa succede se non fa nulla?'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "prs", "score": 4, "issues": "Minor wording differences in the translation of 'parcheggio senza biglietto valido'.", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "uk", "score": 5, "issues": "Minor wording differences in 'Che cosa deve fare?' and 'Cosa deve fare?'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "ta", "score": 3, "issues": "Some information is rephrased or missing, such as the original purpose of the letter being a fine for parking without a valid ticket.", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "tr", "score": 5, "issues": "Minor wording differences in 'Che cosa succede se non fa nulla?'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "so", "score": 2, "issues": "Incorrect information about the fine, unclear language, and incorrect contact information", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'deve fare' and 'non agisce'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "en", "score": 5, "issues": "Minor wording differences in phrases", "judge_model": "llama3:latest"}
+{"id": "fine_notice_it_0", "target": "es", "score": 5, "issues": "Minor wording differences in 'Cosa deve fare?' and 'Cosa succede se non fa nulla?'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "health_insurance_reminder_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Mahnung' vs 'Warnung', 'Prämien' vs 'Raten'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'Mahnung' and 'Beschlagnahme'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Was muss...' and 'Bis zu...'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "ta", "score": 2, "issues": "Incorrect information about consequences of not taking action and unclear language", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wann?' sections", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "so", "score": 2, "issues": "Important information about paying a debt is missing or wrong.", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nicht handeln?'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'was muss er tun' and 'was passiert, wenn er nichts tut'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "ti", "score": 3, "issues": "Incorrect verb tenses and wording, especially in the 'What must be done?' and 'What happens if not?' sections.", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'cos'è questa cosa'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "prs", "score": 5, "issues": "Minor formatting differences in the Italian translation.", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "uk", "score": 5, "issues": "Minor wording differences in 'di che cosa si tratta' and 'si tratta di'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "ta", "score": 4, "issues": "Minor wording differences in the first paragraph, unclear if 'messaggio' is equivalent to 'lettera'.", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "tr", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "so", "score": 3, "issues": "Some information rephrased or missing, e.g. 'rinnovare il permesso di dimora' vs 'rinnovare i membri della presenza'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'di cosa' vs 'di che cosa', 'soggiorno' instead of 'dimora'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'permissi di dimora' vs 'permesso di soggiorno'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_it_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'permesso di dimora' vs 'permesso di soggiorno'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "premium_reduction_fr_0", "target": "ar", "score": 4, "issues": "Minor wording differences between 'subside' and 'indemnité', and 'bail à loyer' and 'contrat de location'.", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'de quoi s'agit-il' and 'qu'est-ce que vous devez recevoir'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "uk", "score": 5, "issues": "Minor wording differences in 'caisse cantonale de compensation' vs 'caisse cantonale d'indemnisation'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "ta", "score": 3, "issues": "Incorrect translation of 'subside' to 'aide', unclear meaning of 'renouveler votre dernier contrat d'assurance'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'de quoi s'agit-il' and 'Qu'est-ce que c'est'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "so", "score": 2, "issues": "Incorrect information about the purpose of the letter, unclear instructions on what to prepare", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "sq", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_fr_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "rent_increase_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Mietzinshöhe' vs 'Mietzunahme' and 'Mietzins' vs 'neuer Preis'.", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'Was' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was müssen Sie tun?' sections.", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "ta", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wann?' sections", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wie lange haben Sie Zeit?'", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "so", "score": 3, "issues": "Incorrect recipient (Geräts instead of Wohnung), unclear wording (Gewohnheit instead of tun)", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "rent_increase_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wer hilft ihr?'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "school_enrolment_fr_0", "target": "ar", "score": 4, "issues": "Minor wording difference: 'école enfantine' vs 'crèche'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'Qu'est-ce que c'est?' and 'Quel est le problème si vous ne faites rien?'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "uk", "score": 4, "issues": "Minor wording differences between 'école enfantine' and 'maternelle'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "ta", "score": 2, "issues": "Incorrect context, unclear instructions, and misplaced information", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "tr", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "so", "score": 2, "issues": "Incorrect information about the purpose of the letter, unclear instructions, and missing context", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "sq", "score": 4, "issues": "Minor wording differences: 'école enfantine' vs 'maternelle'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "en", "score": 5, "issues": "Minor wording difference: 'école enfantine' vs 'maternelle'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_fr_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "social_assistance_appointment_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Sozialdienst' vs 'Sozialen Dienste' and 'Lohnabrechnungen' vs 'Lohnbescheid'.", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "prs", "score": 3, "issues": "Some information missing or slightly wrong, e.g. 'Hilfeschein' instead of 'Unterlagen'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Bis wann?'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "ta", "score": 4, "issues": "Minor wording differences in instructions and consequences", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wann'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "so", "score": 2, "issues": "Incorrect information about the purpose of the invitation, unclear instructions for providing data, and incorrect contact person.", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wer hilft Ihnen?'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in instructions and phrases", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "tax_reminder_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Mahnung' vs 'Warnung', 'Steuererklärung' vs 'Einkommensteuererklärung'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was müssen Sie tun?'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Mahnung' vs 'Erinnerung', 'Nachweisdokumenten' vs 'Belegen'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "ta", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was muss ich tun?'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was sollten Sie tun?'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "so", "score": 2, "issues": "Important information about consequences and deadline is missing or unclear.", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Mahnung' vs 'Vorankündigung', 'ausgefüllte' vs 'vollständige', and 'Busse' vs 'Geldstrafe'.", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was muss man tun?'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "ahv_contributions_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'deve pagare' vs 'deve versare', 'non lavora' vs 'non lavora' (no change)", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "prs", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "uk", "score": 4, "issues": "Minor wording differences in the first sentence and the use of 'non lavorate' instead of 'non lavora'.", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "ta", "score": 4, "issues": "Minor wording differences in the first sentence, unclear meaning of 'addebito'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "tr", "score": 4, "issues": "Minor wording differences in the imperative forms of verbs.", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "so", "score": 4, "issues": "Minor wording differences, 'inserisci la spinta' instead of 'versare i soldi'", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "sq", "score": 4, "issues": "Minor wording differences in verb tenses and pronouns", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "ahv_contributions_it_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "ti", "score": 2, "issues": "Important information about what to do and when to arrive is missing or wrong", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' vs 'cos'è', 'che cosa deve fare' vs 'deve presentarsi'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'Che cosa deve fare?' and 'Fino a quando?'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "uk", "score": 5, "issues": "Minor wording differences in 'Che cosa deve fare?' and 'A che ora?'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "ta", "score": 3, "issues": "Incorrect information about the purpose of the meeting and the potential consequences of not attending", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'convocazione' vs 'invito', 'colloquio' vs 'incontro di rifugio'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "so", "score": 2, "issues": "Incorrect information about what happens if the person does not follow the procedure", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "sq", "score": 5, "issues": "Minor wording differences in 'di che cosa si tratta' and 'di cosa si tratta'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "en", "score": 5, "issues": "Minor wording differences in 'Che cosa deve fare?' and 'Che cosa succede se non fa nulla?'", "judge_model": "llama3:latest"}
+{"id": "asylum_interview_it_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "ti", "score": 2, "issues": "Incorrect information about payment and legal action", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wer hilft Ihnen?' sections.", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "prs", "score": 4, "issues": "Minor wording differences in payment and objection deadlines", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wer hilft Ihnen?' sections.", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "ta", "score": 2, "issues": "Incorrect information about payment and legal action", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'müssen Sie tun' and 'wie lange dauert es'", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "so", "score": 2, "issues": "Important information about payment deadline and consequences of not paying is missing or unclear.", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'müssen' and 'rechtlichen Widerspruch'", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Was müssen Sie tun?' and 'Wer hilft Ihnen?'", "judge_model": "llama3:latest"}
+{"id": "debt_collection_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wer hilft ihr?'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "ti", "score": 2, "issues": "Lack of clarity in translation, important information missing", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was sollst du tun?'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'Was ist' and 'Wichtige Angaben'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was müssen Sie tun?'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "ta", "score": 4, "issues": "Minor wording differences in instructions and consequences", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wichtige Angaben'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "so", "score": 3, "issues": "Some wording differences and minor inaccuracies in the consequences", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wichtige Angaben'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Familienausgleichskasse' vs 'Familienzuschlagsamts'", "judge_model": "llama3:latest"}
+{"id": "family_allowance_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'Was muss er tun?' and 'Wer hilft ihm?'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "ti", "score": 2, "issues": "Incorrect information about parking, fines, and procedures", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was solltest du tun?'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'müssen' and 'Busfahrkarten'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'bezahlen' and 'Parkschein'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "ta", "score": 2, "issues": "Incorrect information about fines, payment, and procedure", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Parkieren' vs 'Parkens', 'Busse' vs 'Busfahrkarten'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "so", "score": 2, "issues": "Incorrect information about the purpose of the fine, unclear instructions", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Strafzettel' vs 'Strafanzeige', 'Parkticket' vs 'Parkschein'", "judge_model": "llama3:latest"}
+{"id": "fine_notice_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'was ist das' and 'was muss er tun'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "health_insurance_reminder_fr_0", "target": "ar", "score": 4, "issues": "Minor wording differences between 'primes' and 'mensualités', and 'lettre' vs 'message'.", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in the translation of 'qu'est-ce que c'est' and 'Dari :'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'primes' vs 'cotisations', 'poursuite' vs 'plainte', and 'fruits' vs 'judiciaires'.", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "ta", "score": 3, "issues": "Incorrect wording for 'payer les primes' and 'engager une poursuite'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'de quoi s'agit-il' and 'quel délai avez-vous'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "so", "score": 3, "issues": "Incorrect verb tenses and wordings, unclear who 'je' refers to", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "sq", "score": 4, "issues": "Minor wording difference: 'document' instead of 'lettre'", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "health_insurance_reminder_fr_0", "target": "es", "score": 4, "issues": "Minor wording difference in 'engagerons' vs 'lancerons'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "permit_renewal_de_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'Aufenthaltsbewilligung' vs 'Aufenthaltstitel'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "prs", "score": 1, "issues": "no back-translation"}
+{"id": "permit_renewal_de_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'Müssen' and 'Dokumente'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "ta", "score": 3, "issues": "Incorrect translation of 'Aufenthaltsbewilligung' to 'Genehmigung für die Nutzung von Anlage B', unclear meaning of 'Anlage B'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Wann' sections", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "so", "score": 2, "issues": "Incorrect information about what happens if nothing is done, and unclear instructions", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'Was ist das?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'Wer hilft Ihnen?' and 'Was passiert, wenn Sie nichts tun?'", "judge_model": "llama3:latest"}
+{"id": "permit_renewal_de_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'was muss er tun' and 'wann'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "premium_reduction_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'assicurazione malattie' vs 'assicurazione sanitaria'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "prs", "score": 5, "issues": "Minor wording differences in some sentences.", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "uk", "score": 4, "issues": "Minor wording differences in the explanations of the purpose and the consequences of not taking action.", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "ta", "score": 2, "issues": "Incorrect information about the purpose of the letter, and unclear instructions on what to do", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'cos'è'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "so", "score": 4, "issues": "Minor wording differences in 'riduzione dei premi' vs 'diminuzione del prezzo di vendita'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'cosa deve fare'", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "premium_reduction_it_0", "target": "es", "score": 4, "issues": "Minor wording differences in 'assicurazione per malattia' vs 'assicurazione malattie'", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "ti", "score": 2, "issues": "Lack of clarity in the translation, unclear instructions, and missing information about the rent increase", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "ar", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'augmentera' vs 'augmentation du loyer'", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "uk", "score": 5, "issues": "Minor wording differences in 'avis' vs 'message' and 'hausse' vs 'augmentation'.", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "ta", "score": 4, "issues": "Minor wording differences in the 'Qu'est-ce que c'est ?' and 'Que se passera-t-il si vous ne faites rien ?' sections.", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "tr", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "so", "score": 2, "issues": "Incorrect information about what to do and when, and unclear consequences if no action is taken", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "sq", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "en", "score": 5, "issues": "Minor wording differences in 'contester la hausse' vs 'contester l'augmentation'", "judge_model": "llama3:latest"}
+{"id": "rent_increase_fr_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "school_enrolment_it_0", "target": "ar", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'Cosa è'; 'deve iscrivere il bambino entro il' vs 'Deve iscrivere il bambino prima di'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "prs", "score": 4, "issues": "Minor wording differences in the opening sentence and some phrases.", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "uk", "score": 4, "issues": "Minor wording differences: 'vostra figlia' instead of 'suo figlio', 'asilo' instead of 'scuola dell'infanzia'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "ta", "score": 2, "issues": "Incorrect information about what needs to be done (modulus of iscrizione instead of ricevuta) and what happens if nothing is done (unirsi to Palli instead of frequentare la scuola dell'infanzia)", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'Cosa è'; 'suo figlio' vs 'il bambino'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "so", "score": 1, "issues": "no back-translation"}
+{"id": "school_enrolment_it_0", "target": "sq", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "en", "score": 4, "issues": "Minor wording differences in 'di che cosa si tratta' and 'tuo figlio'", "judge_model": "llama3:latest"}
+{"id": "school_enrolment_it_0", "target": "es", "score": 5, "issues": "Minor wording differences in the verb tenses.", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "social_assistance_appointment_fr_0", "target": "ar", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in 'convocation' vs 'invitation', 'entretien' vs 'mouvement'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'convocation' vs 'invitation', 'dernière facture' vs 'dernier avis d'échéance'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "ta", "score": 3, "issues": "Incorrect assistant's name, unclear 'prenez vos documents' and 'vos derniers reçus'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "tr", "score": 4, "issues": "Minor wording differences in 'de quoi s'agit-il' and 'Qu'est-ce que c'est'", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "so", "score": 2, "issues": "Incorrect information about the purpose and required documents", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "sq", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "en", "score": 4, "issues": "Loyer replaced with impôt sur le revenu", "judge_model": "llama3:latest"}
+{"id": "social_assistance_appointment_fr_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "ti", "score": 1, "issues": "no back-translation"}
+{"id": "tax_reminder_fr_0", "target": "ar", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "prs", "score": 4, "issues": "Minor wording differences in the translation of 'what to do' and 'what happens if nothing is done'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "uk", "score": 4, "issues": "Minor wording differences in 'service des impôts' vs 'administration fiscale', 'fiscale' vs 'd'impôt", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "ta", "score": 4, "issues": "Minor wording differences and incorrect service name", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "tr", "score": 4, "issues": "Minor wording differences in the instructions and consequences", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "so", "score": 1, "issues": "no back-translation"}
+{"id": "tax_reminder_fr_0", "target": "sq", "score": 4, "issues": "Minor wording differences in 'renvoyer' vs 'renvoyer la déclaration', 'plus tard que' vs 'au plus tard'", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "en", "score": 5, "issues": "None", "judge_model": "llama3:latest"}
+{"id": "tax_reminder_fr_0", "target": "es", "score": 5, "issues": "None", "judge_model": "llama3:latest"}

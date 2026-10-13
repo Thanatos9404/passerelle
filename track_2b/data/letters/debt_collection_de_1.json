@@ -1,0 +1,274 @@
+{
+ "id": "debt_collection_de_1",
+ "letter_type": "debt_collection",
+ "lang": "de",
+ "instance": 1,
+ "title": "Zahlungsbefehl — Betreibungsamt Hohenbühl",
+ "authority": "Betreibungsamt Hohenbühl",
+ "facts": [
+  {
+   "type": "address",
+   "value": "Schulhausstrasse 8",
+   "normalized": "Schulhausstrasse 8",
+   "role": null,
+   "critical": false,
+   "slot": "auth_street",
+   "spans": [
+    [
+     38,
+     56
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "9472 Hohenbühl",
+   "normalized": "9472 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "auth_postal",
+   "spans": [
+    [
+     57,
+     71
+    ]
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "041 369 20 13",
+   "normalized": "+41413692013",
+   "role": "contact",
+   "critical": true,
+   "slot": "auth_phone",
+   "spans": [
+    [
+     80,
+     93
+    ]
+   ]
+  },
+  {
+   "type": "email",
+   "value": "info@hohenbuehl.ch",
+   "normalized": "info@hohenbuehl.ch",
+   "role": null,
+   "critical": true,
+   "slot": "auth_email",
+   "spans": [
+    [
+     94,
+     112
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "Seestrasse 27",
+   "normalized": "Seestrasse 27",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_street",
+   "spans": [
+    [
+     138,
+     151
+    ]
+   ]
+  },
+  {
+   "type": "address",
+   "value": "4385 Hohenbühl",
+   "normalized": "4385 Hohenbühl",
+   "role": null,
+   "critical": false,
+   "slot": "rcp_postal",
+   "spans": [
+    [
+     152,
+     166
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "19.10.2026",
+   "normalized": "2026-10-19",
+   "role": "letter_date",
+   "critical": false,
+   "slot": "letter_date",
+   "spans": [
+    [
+     179,
+     189
+    ]
+   ]
+  },
+  {
+   "type": "reference",
+   "value": "26-860995",
+   "normalized": "26-860995",
+   "role": null,
+   "critical": true,
+   "slot": "ref",
+   "spans": [
+    [
+     221,
+     230
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "CHF 480.00",
+   "normalized": "480.00",
+   "role": null,
+   "critical": true,
+   "slot": "amount_main",
+   "spans": [
+    [
+     334,
+     344
+    ]
+   ]
+  },
+  {
+   "type": "date",
+   "value": "9.7.2026",
+   "normalized": "2026-07-09",
+   "role": "past",
+   "critical": false,
+   "slot": "interest_from",
+   "spans": [
+    [
+     368,
+     376
+    ]
+   ]
+  },
+  {
+   "type": "amount",
+   "value": "Fr. 53.30",
+   "normalized": "53.30",
+   "role": null,
+   "critical": true,
+   "slot": "costs",
+   "spans": [
+    [
+     396,
+     405
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "zwanzig",
+   "normalized": "P20D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "pay_days",
+   "spans": [
+    [
+     565,
+     572
+    ]
+   ]
+  },
+  {
+   "type": "iban",
+   "value": "CH22 3151 1928 8149 2818 9",
+   "normalized": "CH2231511928814928189",
+   "role": null,
+   "critical": true,
+   "slot": "iban",
+   "spans": [
+    [
+     628,
+     654
+    ]
+   ]
+  },
+  {
+   "type": "duration",
+   "value": "10",
+   "normalized": "P10D",
+   "role": "deadline",
+   "critical": true,
+   "slot": "objection_days",
+   "spans": [
+    [
+     731,
+     733
+    ]
+   ]
+  },
+  {
+   "type": "legal",
+   "value": "Art. 74 SchKG",
+   "normalized": "Art. 74 SchKG",
+   "role": null,
+   "critical": false,
+   "slot": "legal_ref",
+   "spans": [
+    [
+     828,
+     841
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "08.00 Uhr",
+   "normalized": "08:00",
+   "role": "other",
+   "critical": false,
+   "slot": "open_from",
+   "spans": [
+    [
+     1018,
+     1027
+    ]
+   ]
+  },
+  {
+   "type": "time",
+   "value": "11.30 Uhr",
+   "normalized": "11:30",
+   "role": "other",
+   "critical": false,
+   "slot": "open_to",
+   "spans": [
+    [
+     1032,
+     1041
+    ]
+   ]
+  }
+ ],
+ "card": {
+  "letter_date": "2026-10-19",
+  "deadline": null,
+  "deadline_relative": "P20D",
+  "appointment": null,
+  "amounts": [
+   "480.00",
+   "53.30"
+  ],
+  "references": [
+   "26-860995"
+  ],
+  "iban": "CH2231511928814928189",
+  "ahv": null,
+  "phone": "+41413692013",
+  "email": "info@hohenbuehl.ch"
+ },
+ "action_required": "Bezahlen oder innert Frist Rechtsvorschlag erheben",
+ "consequence": "Fortsetzung der Betreibung (Pfändung)",
+ "documents": [],
+ "recipient": "Abdirahman Warsame",
+ "synthetic": true,
+ "license": "CDLA-Permissive-2.0",
+ "generator_version": "1.0",
+ "split": "test",
+ "explain_subset": false
+}
