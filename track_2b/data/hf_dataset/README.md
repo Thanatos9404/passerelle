@@ -52,7 +52,7 @@ round-trip verification. Built for the Hack Apertus online challenge, Track 2B.
 - **Language(s) (NLP):** letters in de, fr, it; model responses in ti (Tigrinya), ar (Arabic), prs (Dari), uk (Ukrainian),
   ta (Tamil), tr (Turkish), so (Somali), sq (Albanian), and the high-resource controls en, pt, es; back-translations in de/fr/it.
 - **License:** CDLA-Permissive-2.0 (every instance; see `metadata.jsonl`)
-- **Git repository:** GIT_REPO_URL (folder `track_2b/`; generator `src/eval/make_letters.py`)
+- **Git repository:** https://github.com/Thanatos9404/passerelle (folder `track_2b/`; generator `src/eval/make_letters.py`)
 
 ## Uses
 
